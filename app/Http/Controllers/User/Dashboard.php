@@ -126,15 +126,13 @@ class Dashboard extends Controller{
 	
 	
 	public function go_on() {
-		//$dd = DB::connection('mysql2')::table('blok_1_1a')->where('id', '=', 62 )->get();
-		//print_r($dd);
 		
 
 		$flights = new \App\Math;
-		$flights->table('blok_1_1a');
+		$flights->setTable('blok_2_1a');
 
 
-        print_r($flights->find(62));
+		//print_r($flights->find(62));
 
         
         
