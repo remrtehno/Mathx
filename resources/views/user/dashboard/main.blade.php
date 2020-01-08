@@ -4,6 +4,4 @@
     @yield('content')
 </main>
 
-
-
 @include('user/dashboard/layouts/footer')

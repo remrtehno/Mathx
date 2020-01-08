@@ -94,6 +94,10 @@
         </div>
 
     </div>
+        <div id="page" class="d-flex flex-column">
+            <div id="root"></div>
+        </div>
+        <script src="{{ asset('js/app.js') }}"></script>
 </div>
 </body>
 </html>
