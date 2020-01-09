@@ -5,7 +5,9 @@
  * building robust, powerful web applications using React + Laravel.
  */
 
-require('./bootstrap');
+//require('./bootstrap');
+
+
 
 /**
  * Next, we will create a fresh React component instance and attach it to
@@ -13,5 +15,27 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Example');
-require('./index');
+//require('./components/Example');
+
+//require('./components/index');
+
+require('./MathJax.js');
+
+window.$ = window.jQuery = require('jquery');
+
+require('./dashboard/vendor/bootstrap/js/bootstrap.bundle.js' );
+
+require('./dashboard/vendor/jquery-easing/jquery.easing.js');
+
+require('./dashboard/js/sb-admin-2.js');
+
+require('./script.js');
+
+
+
+
+
+
+
+
+

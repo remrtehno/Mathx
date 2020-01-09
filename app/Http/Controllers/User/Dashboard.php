@@ -133,19 +133,14 @@ class Dashboard extends Controller{
 			if(!empty( $name_lvl_table->first()->name_db)) {
 				$flights = new \App\Math;
 				$flights->setTable($name_lvl_table->first()->name_db);
-				$get_test = $flights->get()->toJson(JSON_PRETTY_PRINT);
-				print_r($get_test);
+				$get_test_json = $flights->get()->toJson(JSON_PRETTY_PRINT);
+				$get_test = $flights->get()->toArray();
 			}
 			
-
-			
-			return view('user.dashboard.go-on', ['users' => $users->first(), 'data' => $get_test, ]);
+			return view('user.dashboard.go-on', ['users' => $users->first(), 'data' => $get_test, 'jsonData' => $get_test_json, ]);
 		}
-		$flights = new \App\Math;
-		$flights->setTable('blok_1_1a');
-		$get_test = $flights->get()->toJson();
-		print_r($get_test);
-		//return view('signup');
+
+		return view('signup');
 	}
 
 }

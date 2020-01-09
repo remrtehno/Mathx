@@ -2,11 +2,6 @@
 
 @section('content')
 
-    {{--@foreach ($data as $val)--}}
-        {{--<p> {{ $val['uslovie'] }} </p>--}}
-    {{--@endforeach--}}
-
-
     <!-- Page Wrapper -->
     <div id="wrapper">
 
@@ -45,11 +40,34 @@
                                 ?> 
                             </h5>
                         </div>
-                        <div class="col-lg-3 mb-4">
+                        <div class="col-lg-3 mb-3">
 	                        @if (session()->get('alert'))
 	                          {{ session()->get('alert') }}
 	                        @endif                   
                         </div>
+
+                        <div class="col-lg-12 mb-5">
+                            <?php $counter = 1; ?>
+                                <script id="jsonData">
+                                    var jsonTests = <?php print_r($jsonData); ?>
+                                </script>
+                                <div id="testContainer"></div>
+                            @foreach ($data as $val)
+                                <div class="task">
+                                    <div class="heading mb-3">
+                                        <span class="counter"> {{$counter++}}. </span>
+	                                    <?= $val['uslovie'] ?>
+                                    </div> <!-- /.heading -->
+
+                                    <div class="task-body">
+                                        <div class="d-flex">
+                                            <input type="text" name="task-{{  $val['id'] }}">
+                                        </div>
+                                    </div> <!-- /.task-body -->
+                                </div> <!-- task -->
+                            @endforeach
+                            <button class="btn-success btn">Сдать тесты</button>
+                        </div> <!-- /.col-lg-12 -->
 
                     </div>
 
