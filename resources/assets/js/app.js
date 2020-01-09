@@ -1,22 +1,41 @@
 
 /**
  * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
+ * includes React and other helpers. It's a great starting point while
+ * building robust, powerful web applications using React + Laravel.
  */
 
-require('./bootstrap');
+//require('./bootstrap');
 
-window.Vue = require('vue');
+
 
 /**
- * Next, we will create a fresh Vue application instance and attach it to
+ * Next, we will create a fresh React component instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+//require('./components/Example');
 
-const app = new Vue({
-    el: '#app'
-});
+//require('./components/index');
+
+require('./MathJax.js');
+
+window.$ = window.jQuery = require('jquery');
+
+require('./dashboard/vendor/bootstrap/js/bootstrap.bundle.js' );
+
+require('./dashboard/vendor/jquery-easing/jquery.easing.js');
+
+require('./dashboard/js/sb-admin-2.js');
+
+require('./script.js');
+
+
+
+
+
+
+
+
+

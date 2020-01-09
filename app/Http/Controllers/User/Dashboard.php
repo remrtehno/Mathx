@@ -89,8 +89,7 @@ class Dashboard extends Controller{
 				print_r('(end_test = not NULL) and (now_date-end_test >= 5h) and (now_date-start_test >= 6h)
 ');
 				$allow_tests = true;
-			
-
+				
 			} else {
 				session(['error' => "No one condition works." ,]);
 			}
@@ -126,21 +125,21 @@ class Dashboard extends Controller{
 	
 	
 	public function go_on() {
-		
-
-		$flights = new \App\Math;
-		$flights->setTable('blok_2_1a');
-
-
-		//print_r($flights->find(62));
-
-        
-        
 		$user_id = session()->get('login');
 		if($user_id) {
 			$users = DB::table('users')->where('id', '=', $user_id )->get();
-			return view('user.dashboard.go-on', ['users' => $users->first()]);
+			$name_lvl_table = DB::table('levels_tests')->where('level', '=', $users->first()->level_test )->get();
+			
+			if(!empty( $name_lvl_table->first()->name_db)) {
+				$flights = new \App\Math;
+				$flights->setTable($name_lvl_table->first()->name_db);
+				$get_test_json = $flights->get()->toJson(JSON_PRETTY_PRINT);
+				$get_test = $flights->get()->toArray();
+			}
+			
+			return view('user.dashboard.go-on', ['users' => $users->first(), 'data' => $get_test, 'jsonData' => $get_test_json, ]);
 		}
+
 		return view('signup');
 	}
 
