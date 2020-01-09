@@ -46,7 +46,7 @@
                                 <div class="col-lg-6 mb-4">
                                     <a href="{{ route('dashboard-tests') }}" class="card bg-success text-white shadow">
                                         <div class="card-body">
-                                            Тестирование
+                                            Пройти тестирование
                                         </div>
                                     </a>
                                 </div>

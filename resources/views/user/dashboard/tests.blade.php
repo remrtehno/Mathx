@@ -36,15 +36,26 @@
 									} else {
 										echo 'A1.1';
 									} 
-                                ?> 
+                                ?>
                             </h5>
                         </div>
                         <div class="col-lg-3 mb-4">
-                            <a href="{{ route('dashboard-start-test') }}" class="card bg-success text-white shadow">
-                                <div class="card-body">
-                                    Пройти тест
-                                </div>
-                            </a>
+
+	                        <?php if($allow_tests) { ?>
+                                <a href="{{ route('load-tests') }}" class="card bg-success text-white shadow">
+                                    <div class="card-body">
+                                        Начать тест
+                                    </div>
+                                </a>
+	                        <?php } ?>
+
+                            @if($continue_tests)
+                                <a href="{{ route('load-tests') }}" class="card bg-success text-white shadow">
+                                    <div class="card-body">
+                                        Продолжить тест
+                                    </div>
+                                </a>
+                            @endif
                         </div>
 
                     </div>
