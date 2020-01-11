@@ -40,3 +40,6 @@ Route::get('tests', 'User\Dashboard@test')->name('dashboard-tests');
 Route::get('start-test', 'User\Dashboard@start_test')->name('dashboard-start-test');
 
 Route::get('go-on', 'User\Dashboard@go_on')->name('go-on');
+
+
+Route::get('load-tests', 'User\Dashboard@load_tests')->name('load-tests');
