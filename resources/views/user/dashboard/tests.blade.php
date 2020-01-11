@@ -27,9 +27,21 @@
                     <!-- Content Row -->
                     <div class="row">
 
+                        @if (session()->get('alert'))
+                            <div class="col-lg-12 mb-3">
+                                <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                                    {{ session()->get('alert') }}
+                                    {{ session()->forget('alert') }}
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> <!-- alert -->
+                            </div> <!-- col-lg-12 -->
+                        @endif
+
                         <!-- Content Column -->
                         <div class="col-lg-12 mb-4">
-							<h5> Ваш уровень: 
+							<h5> Ваш уровень:
 								<?php
 									if($users->level_test) {
 										echo $users->level_test;	
@@ -42,7 +54,7 @@
                         <div class="col-lg-3 mb-4">
 
 	                        <?php if($allow_tests) { ?>
-                                <a href="{{ route('load-tests') }}" class="card bg-success text-white shadow">
+                                <a href="{{ route('load-tests', ['level_test' => $level_test, ]) }}" class="card bg-success text-white shadow">
                                     <div class="card-body">
                                         Начать тест
                                     </div>
@@ -53,6 +65,14 @@
                                 <a href="{{ route('load-tests') }}" class="card bg-success text-white shadow">
                                     <div class="card-body">
                                         Продолжить тест
+                                    </div>
+                                </a>
+                            @endif
+
+                            @if(!$allow_tests && !$continue_tests)
+                                <a href="JavaScript:void(0);" class="card btn-disabled text-white shadow">
+                                    <div class="card-body">
+                                        Начать тест
                                     </div>
                                 </a>
                             @endif

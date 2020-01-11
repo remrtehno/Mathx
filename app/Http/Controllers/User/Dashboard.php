@@ -36,25 +36,61 @@ class Dashboard extends Controller{
 			
 			if(!empty($end_test)) {
 				$more_5h = ($timenow - $end_test) >= 18000;
-				$more_6h = ($timenow - $end_test) >= 21640;
+			}
+			if(!empty($end_test)) {
+				$more_6h = ($timenow - $start_test) >= 21640;
 			}
 			
 			if(empty($end_test) && empty($start_test)) {
 				$this->allow_tests = true;
-			} elseif(!$end_test || $more_5h && (($timenow - $start_test) < 3641)) {
+			} elseif((!$end_test || $more_5h) && (($timenow - $start_test) < 3641)) {
+				
 				$this->continue_tests = true;
-			} elseif( $more_5h && ( (3641 <= $timenow - $start_test) && ($timenow - $start_test < 21640) ) )  {
+				
+				
+			} elseif((!$end_test || $more_5h) && ( (3641 <= $timenow - $start_test) && ($timenow - $start_test < 21640) ) )  {
+				
+				
+				$this->allow_tests = null;
+				$this->continue_tests = null;
+				
+				$end_test = $start_test + 3641;
+				DB::table('users')->where('id', $user_id)->update(['end_test' => $end_test, ]);
+				$this->time_left = 18000 - $timenow + $end_test;
+				
+				session(['alert' => 'Вы можете пройти тест через ' . date('H:i',$this->time_left),]);
+				
 
+			} elseif( ($end_test - $start_test <= 3641) &&  ( (3641 <= $timenow-$start_test) && ($timenow - $start_test) < 21640 ) ) {
+				
+				$this->allow_tests = null;
+				$this->continue_tests = null;
+				
+				$end_test = $start_test + 3641;
+				DB::table('users')->where('id', $user_id)->update(['end_test' => $end_test, ]);
+				$this->time_left = 18000 - $timenow + $end_test;
+				
+				session(['alert' => 'Вы можете пройти тест через ' . date('H:i',$this->time_left),]);
+				
 			} elseif($more_5h && $more_6h) {
-			
+				
+				$this->allow_tests = true;
+				$start_test = $timenow;
+				DB::table('users')->where('id', $user_id)->update(['start_test' => $start_test, ]);
+				
+			} else {
+				session(['alert' => 'No works condition.']);
 			}
 			
-			return view('user.dashboard.tests', ['users' => $users->first(), 'allow_tests' => $this->allow_tests, 'continue_tests' => $this->continue_tests, 'action' => $this->action,]);
+			
+			
+			return view('user.dashboard.tests', ['users' => $users->first(), 'allow_tests' => $this->allow_tests, 'continue_tests' => $this->continue_tests, 'level_test' => $users->first()->level_test,]);
 		}
 		return view('signup');
 	}
 	
 	public function load_tests($level_test = null) {
+		print_r($level_test);
 		$user_id = session()->get('login');
 		if($user_id) {
 			
@@ -67,23 +103,30 @@ class Dashboard extends Controller{
 			
 			if(!empty($end_test)) {
 				$more_5h = ($timenow - $end_test) >= 18000;
-				$more_6h = ($timenow - $end_test) >= 21640;
+				$more_6h = ($timenow - $start_test) >= 21640;
 			}
 			
 			
 			if(empty($end_test) && empty($start_test)) {
 				
-				DB::table('users')->where('id', $user_id)->update(['start_test' => $timenow, 'level_test' => 'A1.1', 'start_test' => $timenow, ]);
+				DB::table('users')->where('id', $user_id)->update(['start_test' => $timenow, 'level_test' => 'A1.1',  ]);
+				$this->time_left = 3641;
 				
 			} elseif(!$end_test || $more_5h && (($timenow - $start_test) < 3641)) {
 				
-				$time_left = ($start_test - $timenow + 3641);
+				$this->time_left = ($start_test - $timenow + 3641);
 				
-			} elseif( $more_5h && ( (3641 <= $timenow - $start_test) && ($timenow - $start_test < 21640) ) )  {
+			} elseif( (!$end_test || $more_5h) && ( (3641 <= $timenow - $start_test) && ($timenow - $start_test < 21640) ) )  {
+			
+			
+			} elseif(($end_test - $start_test <= 3641) &&  ( (3641 <= $timenow-$start_test) && ($timenow - $start_test) < 21640 )) {
+			
 			} elseif($more_5h && $more_6h) {
+				$this->time_left = 3641;
 			}
 			
-			
+			$this->allow_tests = null;
+			$this->continue_tests = null;
 			
 			$users = DB::table('users')->where('id', '=', $user_id )->get();
 			$name_lvl_table = DB::table('levels_tests')->where('level', '=', $users->first()->level_test )->get();
@@ -97,7 +140,7 @@ class Dashboard extends Controller{
 				$get_test = $flights->get()->toArray();
 			}
 			
-			return view('user.dashboard.test-container', ['users' => $users->first(), 'data' => $get_test, 'jsonData' => $get_test_json, 'time_left' => $time_left, ]);
+			return view('user.dashboard.test-container', ['users' => $users->first(), 'data' => $get_test, 'jsonData' => $get_test_json, 'time_left' => $this->time_left, ]);
 		}
 		
 		return view('signup');
@@ -181,8 +224,8 @@ class Dashboard extends Controller{
 				print_r('else if (end_test = not NULL) and (now_date-end_test >= 5h) and (1h <= now_date-start_test < 6h
 ');
 				DB::table('users')->where('id', $user_id)->update(['end_test' => $start_test + 3641, ]);
-				$time_left = (21640 - $timenow) + $end_test;
-				session(['alert' => 'Вы можете пройти тест через ' . $time_left ,]);
+				$this->time_left = (21640 - $timenow) + $end_test;
+				session(['alert' => 'Вы можете пройти тест через ' . $this->time_left ,]);
 			} elseif($more_5h && $more_6h) {
 				print_r('(end_test = not NULL) and (now_date-end_test >= 5h) and (now_date-start_test >= 6h)
 ');

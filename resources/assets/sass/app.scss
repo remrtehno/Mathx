@@ -22,3 +22,14 @@ a.card:hover {
 .counter {
   font-weight: 900;
 }
+
+.btn-disabled {
+  opacity: .7;
+  background-color: #484a54;
+  border-color: #42444e;
+  &:hover {
+    background-color: #484a54;
+    border-color: #42444e;
+    opacity: .7;
+  }
+}

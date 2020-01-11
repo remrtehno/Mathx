@@ -29,7 +29,7 @@
 
                         <!-- Content Column -->
                         <div class="col-lg-12 mb-4">
-							<h5> Ваш уровень: 
+							<h5> Ваш уровень:
 								<?php
 									if($users->level_test) {
 										echo $users->level_test;	
