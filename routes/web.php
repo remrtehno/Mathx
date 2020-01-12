@@ -11,16 +11,13 @@
 |
 */
 
-
 Route::get('/', function () {
     return view('welcome');
 });
 
+//Auth::routes();
 
-Route::get('/register', function () {
-	return view('welcome');
-});
-
+Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('sign', 'SignUp@signin');
 

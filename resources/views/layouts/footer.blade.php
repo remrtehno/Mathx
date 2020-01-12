@@ -14,18 +14,9 @@
                     <li><a href="referral-program.php">Регистрация</a></li>
                     <li><a href="contact-us.php">Контакты</a></li>
                 </ul>
-                <p>Copyright © 2019 MATHX All Rights Reserved.</p>
+                <p>Copyright © {{ date('Y') }} MATHX All Rights Reserved.</p>
             </div>
         </div>
     </div>
 </footer>
 
-
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script>
-    $(function () {
-        $("#date-picker").datepicker();
-        $("#date-picker-2").datepicker();
-    });
-</script>

@@ -29,26 +29,29 @@
                         <!-- /.col-12 -->
 
                         <div class="col-lg-12 mb-5">
-                            <?php $counter = 1; ?>
-                                <script id="jsonData">
-                                    var jsonTests = <?php print_r($jsonData); ?>
-                                </script>
-                                <div id="testContainer"></div>
-                            @foreach ($data as $val)
-                                <div class="task">
-                                    <div class="heading mb-3">
-                                        <span class="counter"> {{$counter++}}. </span>
-	                                    <?= $val['uslovie'] ?>
-                                    </div> <!-- /.heading -->
+                            <form method="POST" action="/profile">
+                                @method('PUT')
+                                <?php $counter = 1; ?>
+                                    <script id="jsonData">
+                                        var jsonTests = <?php print_r($jsonData); ?>
+                                    </script>
+                                    <div id="testContainer"></div>
+                                @foreach ($data as $val)
+                                    <div class="task">
+                                        <div class="heading mb-3">
+                                            <span class="counter"> {{$counter++}}. </span>
+                                            <?= $val['uslovie'] ?>
+                                        </div> <!-- /.heading -->
 
-                                    <div class="task-body">
-                                        <div class="d-flex">
-                                            <input type="text" name="task-{{  $val['id'] }}">
-                                        </div>
-                                    </div> <!-- /.task-body -->
-                                </div> <!-- task -->
-                            @endforeach
-                            <button class="btn-success btn">Сдать тесты</button>
+                                        <div class="task-body">
+                                            <div class="d-flex">
+                                                <input type="text" name="{{ $id_test }}-task-{{  $val['id'] }}">
+                                            </div>
+                                        </div> <!-- /.task-body -->
+                                    </div> <!-- task -->
+                                @endforeach
+                                <button class="btn-success btn">Сдать тесты</button>
+                            </form>
                         </div> <!-- /.col-lg-12 -->
 
                     </div>
