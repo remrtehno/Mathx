@@ -26,3 +26,5 @@ require('./dashboard/vendor/jquery-easing/jquery.easing.js');
 require('./dashboard/js/sb-admin-2.js');
 
 require('./script.js');
+
+
