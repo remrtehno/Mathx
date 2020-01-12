@@ -1,0 +1,1557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b5311a7-128b-4eb2-a636-83b2ae9c7f2f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/SignUp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/User/Dashboard.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Math.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/users.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/error_log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-brands-400.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-brands-400.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-brands-400.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-brands-400.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-brands-400.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-regular-400.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-regular-400.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-regular-400.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-regular-400.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-regular-400.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-solid-900.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-solid-900.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-solid-900.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-solid-900.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/fa-solid-900.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/css/sb-admin-2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/css/sb-admin-2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/MathJax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/components/App.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/components/Example.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/components/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/js/sb-admin-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.bundle.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_alert.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_breadcrumb.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_button-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_card.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_carousel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_close.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_code.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_custom-forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_dropdown.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_functions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_images.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_input-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_jumbotron.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_media.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_reboot.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_root.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_spinners.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_toasts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/bootstrap-grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/bootstrap-reboot.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_alert.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_background-variant.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_box-shadow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_breakpoints.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_caret.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_deprecate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_float.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_grid-framework.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_hover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_lists.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_nav-divider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_reset-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_resize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_table-row.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_text-emphasis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_text-hide.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_text-truncate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_transition.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/chart.js/Chart.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/chart.js/Chart.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/chart.js/Chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/chart.js/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/datatables/dataTables.bootstrap4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/datatables/dataTables.bootstrap4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/datatables/dataTables.bootstrap4.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/datatables/dataTables.bootstrap4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/datatables/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/datatables/jquery.dataTables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/all.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/brands.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/brands.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/fontawesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/fontawesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/regular.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/regular.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/solid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/solid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/svg-with-js.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/svg-with-js.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/v4-shims.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/css/v4-shims.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/brands.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/brands.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/conflict-detection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/conflict-detection.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/fontawesome.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/fontawesome.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/regular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/regular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/solid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/solid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/v4-shims.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/js/v4-shims.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/_animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/_bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/_core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/_fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/_icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/_larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/_list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/_mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/_rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/_screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/_shims.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/_stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/_variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/brands.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/fontawesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/regular.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/solid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/less/v4-shims.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_shims.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/brands.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/fontawesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/regular.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/solid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/scss/v4-shims.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/sprites/brands.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/sprites/regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/sprites/solid.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/500px.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/accessible-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/accusoft.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/acquisitions-incorporated.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/adn.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/adobe.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/adversal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/affiliatetheme.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/airbnb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/algolia.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/alipay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/amazon-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/amazon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/amilia.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/android.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/angellist.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/angrycreative.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/angular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/app-store-ios.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/app-store.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/apper.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/apple-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/apple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/artstation.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/asymmetrik.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/atlassian.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/audible.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/autoprefixer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/avianex.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/aviato.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/aws.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bandcamp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/battle-net.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/behance-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/behance.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bimobject.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bitbucket.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bitcoin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bity.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/black-tie.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/blackberry.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/blogger-b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/blogger.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bluetooth-b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bluetooth.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bootstrap.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/btc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/buffer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/buromobelexperte.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/buysellads.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/canadian-maple-leaf.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-amazon-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-amex.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-apple-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-diners-club.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-discover.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-jcb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-mastercard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-paypal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-stripe.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-visa.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/centercode.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/centos.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/chrome.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/jquery-easing/jquery.easing.compatibility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/jquery-easing/jquery.easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/jquery-easing/jquery.easing.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/jquery/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/jquery/jquery.slim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/jquery/jquery.slim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/dashboard/vendor/jquery/jquery.slim.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/sass/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/js/bootstrap.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/js/bootstrap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/js/bootstrap.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_alert.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_breadcrumb.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_button-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_card.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_carousel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_close.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_code.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_custom-forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_dropdown.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_functions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_images.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_input-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_jumbotron.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_media.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_reboot.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_root.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_spinners.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_toasts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/bootstrap-grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/bootstrap-reboot.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_alert.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_background-variant.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_box-shadow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_breakpoints.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_caret.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_deprecate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_float.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_grid-framework.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_hover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_lists.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_nav-divider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_reset-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_resize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_table-row.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_text-emphasis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_text-hide.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_text-truncate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_transition.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/bootstrap/scss/mixins/_visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/chart.js/Chart.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/chart.js/Chart.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/chart.js/Chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/chart.js/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/datatables/dataTables.bootstrap4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/datatables/dataTables.bootstrap4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/datatables/dataTables.bootstrap4.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/datatables/dataTables.bootstrap4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/datatables/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/datatables/jquery.dataTables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/all.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/brands.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/brands.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/fontawesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/fontawesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/regular.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/regular.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/solid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/solid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/svg-with-js.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/svg-with-js.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/v4-shims.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/css/v4-shims.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/brands.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/brands.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/conflict-detection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/conflict-detection.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/fontawesome.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/fontawesome.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/regular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/regular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/solid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/solid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/v4-shims.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/js/v4-shims.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/_animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/_bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/_core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/_fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/_icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/_larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/_list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/_mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/_rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/_screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/_shims.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/_stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/_variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/brands.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/fontawesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/regular.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/solid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/less/v4-shims.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/_shims.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/brands.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/fontawesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/regular.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/solid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/scss/v4-shims.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/sprites/brands.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/sprites/regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/sprites/solid.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/500px.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/accessible-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/accusoft.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/acquisitions-incorporated.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/adn.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/adobe.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/adversal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/affiliatetheme.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/airbnb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/algolia.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/alipay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/amazon-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/amazon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/amilia.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/android.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/angellist.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/angrycreative.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/angular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/app-store-ios.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/app-store.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/apper.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/apple-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/apple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/artstation.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/asymmetrik.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/atlassian.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/audible.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/autoprefixer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/avianex.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/aviato.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/aws.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/bandcamp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/battle-net.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/behance-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/behance.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/bimobject.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/bitbucket.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/bitcoin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/bity.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/black-tie.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/blackberry.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/blogger-b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/blogger.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/bluetooth-b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/bluetooth.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/bootstrap.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/btc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/buffer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/buromobelexperte.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/buysellads.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/canadian-maple-leaf.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/cc-amazon-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/cc-amex.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/cc-apple-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/cc-diners-club.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/cc-discover.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/cc-jcb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/cc-mastercard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/cc-paypal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/cc-stripe.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/cc-visa.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/centercode.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/centos.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/svgs/brands/chrome.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-brands-400.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-brands-400.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-brands-400.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-regular-400.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-regular-400.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-regular-400.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-solid-900.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-solid-900.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-solid-900.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/jquery-easing/jquery.easing.compatibility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/jquery-easing/jquery.easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/jquery-easing/jquery.easing.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/jquery/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/jquery/jquery.slim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/jquery/jquery.slim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/vendor/jquery/jquery.slim.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/js/components/App.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/js/components/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/main.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/signin.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/signup.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/css/sb-admin-2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/css/sb-admin-2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/img/undraw_posting_photo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/demo/chart-area-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/demo/chart-bar-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/demo/chart-pie-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/demo/datatables-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/sb-admin-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/sb-admin-2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_alert.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_breadcrumb.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_button-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_card.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_carousel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_close.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_code.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_custom-forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_dropdown.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_functions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_images.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_input-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_jumbotron.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_media.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_reboot.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_root.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_spinners.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_toasts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/bootstrap-grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/bootstrap-reboot.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_alert.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_background-variant.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_box-shadow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_breakpoints.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_caret.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_deprecate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_float.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_grid-framework.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_hover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_lists.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_nav-divider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_reset-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_resize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_table-row.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_text-emphasis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_text-hide.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_text-truncate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_transition.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/chart.js/Chart.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/chart.js/Chart.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/chart.js/Chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/chart.js/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/datatables/dataTables.bootstrap4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/datatables/dataTables.bootstrap4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/datatables/dataTables.bootstrap4.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/datatables/dataTables.bootstrap4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/datatables/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/datatables/jquery.dataTables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/all.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/brands.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/brands.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/fontawesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/fontawesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/regular.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/regular.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/solid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/solid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/svg-with-js.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/svg-with-js.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/v4-shims.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/v4-shims.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/brands.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/brands.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/conflict-detection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/conflict-detection.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/fontawesome.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/fontawesome.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/regular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/regular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/solid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/solid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/v4-shims.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/v4-shims.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_shims.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/brands.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/fontawesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/regular.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/solid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/v4-shims.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_shims.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/brands.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/fontawesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/regular.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/solid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/v4-shims.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/sprites/brands.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/sprites/regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/sprites/solid.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/500px.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/accessible-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/accusoft.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/acquisitions-incorporated.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/adn.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/adobe.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/adversal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/affiliatetheme.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/airbnb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/algolia.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/alipay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/amazon-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/amazon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/amilia.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/android.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/angellist.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/angrycreative.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/angular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/app-store-ios.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/app-store.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/apper.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/apple-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/apple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/artstation.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/asymmetrik.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/atlassian.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/audible.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/autoprefixer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/avianex.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/aviato.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/aws.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bandcamp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/battle-net.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/behance-square.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/behance.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bimobject.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bitbucket.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bitcoin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bity.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/black-tie.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/blackberry.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/blogger-b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/blogger.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bluetooth-b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bluetooth.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bootstrap.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/btc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/buffer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/buromobelexperte.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/buysellads.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/canadian-maple-leaf.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-amazon-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-amex.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-apple-pay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-diners-club.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-discover.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-jcb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-mastercard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-paypal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-stripe.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-visa.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/centercode.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/centos.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/chrome.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-brands-400.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-brands-400.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-brands-400.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-regular-400.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-regular-400.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-regular-400.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-solid-900.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-solid-900.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-solid-900.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery-easing/jquery.easing.compatibility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery-easing/jquery.easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery-easing/jquery.easing.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery/jquery.slim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery/jquery.slim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery/jquery.slim.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/go-on.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/home.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/layouts/footer.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/layouts/header.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/layouts/sidebar.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/layouts/topbar.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/main.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/start-tests.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/test-container.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/user/dashboard/tests.blade.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.env.example" afterPath="$PROJECT_DIR$/sources/old-1/.env.example" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/sources/old-1/.gitattributes" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/sources/old-1/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/sources/old-1/.htaccess" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/artisan" afterPath="$PROJECT_DIR$/sources/old-1/artisan" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/sources/old-1/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/sources/old-1/composer.lock" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/deploy.php" afterPath="$PROJECT_DIR$/sources/old-1/deploy.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/sources/old-1/package-lock.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/sources/old-1/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/sources/old-1/phpunit.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/sources/old-1/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server.php" afterPath="$PROJECT_DIR$/sources/old-1/server.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/app/.gitignore" afterPath="$PROJECT_DIR$/sources/old-1/storage/app/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" afterPath="$PROJECT_DIR$/sources/old-1/storage/app/public/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/framework/.gitignore" afterPath="$PROJECT_DIR$/sources/old-1/storage/framework/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterPath="$PROJECT_DIR$/sources/old-1/storage/framework/cache/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterPath="$PROJECT_DIR$/sources/old-1/storage/framework/sessions/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterPath="$PROJECT_DIR$/sources/old-1/storage/framework/testing/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterPath="$PROJECT_DIR$/sources/old-1/storage/framework/views/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/sources/old-1/storage/logs/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/sources/old-1/test.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" afterPath="$PROJECT_DIR$/sources/old-1/tests/CreatesApplication.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterPath="$PROJECT_DIR$/sources/old-1/tests/Feature/ExampleTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="$PROJECT_DIR$/sources/old-1/tests/TestCase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterPath="$PROJECT_DIR$/sources/old-1/tests/Unit/ExampleTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webpack.mix.js" afterPath="$PROJECT_DIR$/sources/old-1/webpack.mix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/app.php" afterPath="$PROJECT_DIR$/bootstrap/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/auth.php" afterPath="$PROJECT_DIR$/config/auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/broadcasting.php" afterPath="$PROJECT_DIR$/config/broadcasting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/cache.php" afterPath="$PROJECT_DIR$/config/cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mail.php" afterPath="$PROJECT_DIR$/config/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/queue.php" afterPath="$PROJECT_DIR$/config/queue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/services.php" afterPath="$PROJECT_DIR$/config/services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/session.php" afterPath="$PROJECT_DIR$/config/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/view.php" afterPath="$PROJECT_DIR$/config/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/.gitignore" afterPath="$PROJECT_DIR$/database/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/web.config" afterPath="$PROJECT_DIR$/public/web.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/js/app.js" afterPath="$PROJECT_DIR$/resources/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/app.scss" afterPath="$PROJECT_DIR$/resources/sass/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mathx.uz" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="102" column="42" lean-forward="false" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Example.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/Example.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.mix.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$disabled_allow</find>
+      <find>(end_test = not NULL) and (now_date-end_test &gt;= 5h) and (now_date-start_test &gt;= 6h)</find>
+      <find>'end_test'</find>
+      <find>time_left</find>
+      <find>$action</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SignUp.php" />
+        <option value="$PROJECT_DIR$/deploy.php" />
+        <option value="$PROJECT_DIR$/react-mathjax/my-app/package.json" />
+        <option value="$PROJECT_DIR$/resources/views/user/dashboard/main.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/dashboard/layouts/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/dashboard/layouts/topbar.blade.php" />
+        <option value="$PROJECT_DIR$/react-mathjax/my-app2/src/App.js" />
+        <option value="$PROJECT_DIR$/resources/js/components/App.js" />
+        <option value="$PROJECT_DIR$/resources/js/index.js" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/index.js" />
+        <option value="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/script.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/scripts.js" />
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/resources/views/user/dashboard/layouts/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/dashboard/go-on.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/user/dashboard/home.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/dashboard/start-tests.blade.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/resources/views/user/dashboard/tests.blade.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/resources/views/main.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/resources/views/user/dashboard/layouts/header.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/User/Dashboard.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/script.js" />
+        <option value="$PROJECT_DIR$/resources/views/user/dashboard/test-container.blade.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lv_new/blog/.htaccess" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/webpack.mix.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="824" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mathx.uz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mathx.uz" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mathx.uz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mathx.uz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mathx.uz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mathx.uz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mathx.uz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mathx.uz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/user/dashboard" />
+      <recent name="$PROJECT_DIR$/resources/assets" />
+      <recent name="$PROJECT_DIR$/resources/assets/js/dashboard/js" />
+      <recent name="$PROJECT_DIR$/resources/assets/js/dashboard" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sources/old-1" />
+      <recent name="$PROJECT_DIR$/resources/assets/sass/bt4" />
+      <recent name="$PROJECT_DIR$/sources" />
+      <recent name="$PROJECT_DIR$/resources/assets/js" />
+      <recent name="$PROJECT_DIR$/resources/assets/vendor" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b5311a7-128b-4eb2-a636-83b2ae9c7f2f" name="Default" comment="" />
+      <created>1578424249216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578424249216</updated>
+      <workItem from="1578424250728" duration="31302000" />
+      <workItem from="1578682811365" duration="540000" />
+      <workItem from="1578760988399" duration="8031000" />
+      <workItem from="1578770096636" duration="325000" />
+      <workItem from="1578830479710" duration="9111000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="49309000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="824" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20314735" sideWeight="0.48696846" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5028612" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26200274" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20314735" sideWeight="0.51303154" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5028612" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26200274" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20314735" sideWeight="0.48696846" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20314735" sideWeight="0.51303154" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/dashboard/vendor/jquery/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="48" column="57" lean-forward="false" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/old-1/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="59" column="20" lean-forward="false" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/go-on.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/start-tests.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/old-1/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50763">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/old-1/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2675">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/old-1/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/old-1/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/tests.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/old-1/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/main.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lv_new/blog/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/layouts/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="58" lean-forward="false" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/main.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/test-container.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="10" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/Dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="142" column="194" lean-forward="false" selection-start-line="142" selection-start-column="194" selection-end-line="142" selection-end-column="194" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/old-1/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lv_new/blog/resources/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lv_new/blog/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lv_new/blog/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lv_new/blog/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lv_new/blog/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320610">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lv_new/blog/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lv_new/blog/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lv_new/blog/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lv_new/blog/resources/js/components/Example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lv_new/blog/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/old-1/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lv_new/blog/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-996">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lv_new/blog/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="102" column="42" lean-forward="false" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
