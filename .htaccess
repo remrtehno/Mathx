@@ -16,4 +16,5 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ server.php
 
+
 </IfModule>
