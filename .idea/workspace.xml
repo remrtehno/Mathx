@@ -2,697 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b5311a7-128b-4eb2-a636-83b2ae9c7f2f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-brands-400.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-brands-400.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-regular-400.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-regular-400.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-solid-900.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-solid-900.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Math.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/users.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deploy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/css/sb-admin-2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/all.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/brands.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/brands.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/fontawesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/fontawesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/regular.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/regular.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/solid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/solid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/svg-with-js.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/svg-with-js.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/v4-shims.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/css/v4-shims.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/brands.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/brands.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/conflict-detection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/conflict-detection.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/fontawesome.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/fontawesome.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/regular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/regular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/solid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/solid.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/v4-shims.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/js/v4-shims.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/_animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/_bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/_core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/_fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/_icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/_larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/_list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/_mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/_rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/_screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/_shims.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/_stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/_variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/brands.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/fontawesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/regular.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/solid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/less/v4-shims.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/_shims.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/brands.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/fontawesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/regular.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/solid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/scss/v4-shims.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/sprites/brands.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/sprites/regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/sprites/solid.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/500px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/accessible-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/accusoft.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/acquisitions-incorporated.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/adn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/adobe.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/adversal.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/affiliatetheme.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/airbnb.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/algolia.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/alipay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/amazon-pay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/amazon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/amilia.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/android.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/angellist.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/angrycreative.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/angular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/app-store-ios.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/app-store.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/apper.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/apple-pay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/apple.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/artstation.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/asymmetrik.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/atlassian.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/audible.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/autoprefixer.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/avianex.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/aviato.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/aws.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/bandcamp.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/battle-net.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/behance-square.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/behance.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/bimobject.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/bitbucket.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/bitcoin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/bity.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/black-tie.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/blackberry.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/blogger-b.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/blogger.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/bluetooth-b.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/bluetooth.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/bootstrap.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/btc.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/buffer.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/buromobelexperte.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/buysellads.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/canadian-maple-leaf.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-amazon-pay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-amex.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-apple-pay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-diners-club.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-discover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-jcb.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-mastercard.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-paypal.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-stripe.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-visa.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/centercode.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/centos.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/svgs/brands/chrome.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/main.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/signin.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/signup.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/css/sb-admin-2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/css/sb-admin-2.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/img/undraw_posting_photo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/demo/chart-area-demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/demo/chart-bar-demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/demo/chart-pie-demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/demo/datatables-demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/sb-admin-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/sb-admin-2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/js/bootstrap.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_alert.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_breadcrumb.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_button-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_card.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_close.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_custom-forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_images.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_input-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_jumbotron.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_reboot.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_root.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_spinners.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_toasts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/bootstrap-grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/bootstrap-reboot.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_alert.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_background-variant.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_box-shadow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_breakpoints.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_caret.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_deprecate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_grid-framework.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_hover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_lists.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_nav-divider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_reset-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_resize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_table-row.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_text-emphasis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_text-hide.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_text-truncate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_transition.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/bootstrap/scss/mixins/_visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/chart.js/Chart.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/chart.js/Chart.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/chart.js/Chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/chart.js/Chart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/datatables/dataTables.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/datatables/dataTables.bootstrap4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/datatables/dataTables.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/datatables/dataTables.bootstrap4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/datatables/jquery.dataTables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/datatables/jquery.dataTables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/all.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/brands.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/brands.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/fontawesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/fontawesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/regular.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/regular.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/solid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/solid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/svg-with-js.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/svg-with-js.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/v4-shims.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/css/v4-shims.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/brands.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/brands.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/conflict-detection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/conflict-detection.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/fontawesome.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/fontawesome.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/regular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/regular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/solid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/solid.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/v4-shims.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/js/v4-shims.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_shims.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/_variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/brands.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/fontawesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/regular.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/solid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/less/v4-shims.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_shims.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/brands.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/fontawesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/regular.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/solid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/scss/v4-shims.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/sprites/brands.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/sprites/regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/sprites/solid.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/500px.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/accessible-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/accusoft.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/acquisitions-incorporated.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/adn.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/adobe.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/adversal.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/affiliatetheme.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/airbnb.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/algolia.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/alipay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/amazon-pay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/amazon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/amilia.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/android.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/angellist.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/angrycreative.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/angular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/app-store-ios.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/app-store.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/apper.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/apple-pay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/apple.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/artstation.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/asymmetrik.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/atlassian.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/audible.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/autoprefixer.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/avianex.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/aviato.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/aws.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bandcamp.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/battle-net.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/behance-square.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/behance.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bimobject.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bitbucket.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bitcoin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bity.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/black-tie.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/blackberry.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/blogger-b.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/blogger.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bluetooth-b.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bluetooth.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/bootstrap.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/btc.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/buffer.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/buromobelexperte.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/buysellads.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/canadian-maple-leaf.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-amazon-pay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-amex.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-apple-pay.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-diners-club.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-discover.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-jcb.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-mastercard.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-paypal.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-stripe.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/cc-visa.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/centercode.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/centos.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/svgs/brands/chrome.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-brands-400.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-regular-400.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/fontawesome-free/webfonts/fa-solid-900.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery-easing/jquery.easing.compatibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery-easing/jquery.easing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery-easing/jquery.easing.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery/jquery.slim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery/jquery.slim.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/assets/vendor/jquery/jquery.slim.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/go-on.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/home.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/layouts/footer.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/layouts/header.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/layouts/sidebar.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/layouts/topbar.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/main.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/start-tests.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/test-container.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/user/dashboard/tests.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mathjax" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/app/Http/Controllers/SignUp.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SignUp.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/app/Http/Controllers/User/Dashboard.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/Dashboard.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/MathJax.js" afterPath="$PROJECT_DIR$/resources/js/MathJax.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/js/sb-admin-2.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/js/sb-admin-2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.bundle.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/js/bootstrap.bundle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.bundle.js.map" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/js/bootstrap.bundle.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.js.map" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/js/bootstrap.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/js/bootstrap.min.js.map" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/js/bootstrap.min.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_alert.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_alert.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_badge.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_badge.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_breadcrumb.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_breadcrumb.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_button-group.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_button-group.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_buttons.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_card.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_card.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_carousel.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_carousel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_close.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_close.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_code.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_code.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_custom-forms.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_custom-forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_dropdown.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_dropdown.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_forms.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_functions.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_functions.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_grid.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_images.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_images.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_input-group.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_input-group.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_jumbotron.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_jumbotron.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_list-group.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_list-group.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_media.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_media.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_mixins.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_modal.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_modal.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_nav.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_nav.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_navbar.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_navbar.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_pagination.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_pagination.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_popover.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_popover.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_print.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_print.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_progress.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_progress.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_reboot.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_reboot.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_root.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_root.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_spinners.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_spinners.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_tables.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_tables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_toasts.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_toasts.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_tooltip.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_tooltip.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_transitions.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_transitions.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_type.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_type.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_utilities.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_utilities.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/_variables.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/bootstrap-grid.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/bootstrap-grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/bootstrap-reboot.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/bootstrap-reboot.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/bootstrap.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/bootstrap.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_alert.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_alert.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_background-variant.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_background-variant.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_badge.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_badge.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_border-radius.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_border-radius.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_box-shadow.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_box-shadow.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_breakpoints.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_breakpoints.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_caret.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_caret.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_clearfix.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_clearfix.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_deprecate.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_deprecate.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_float.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_float.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_forms.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_gradients.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_gradients.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_grid-framework.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_grid-framework.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_grid.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_hover.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_hover.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_image.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_image.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_list-group.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_list-group.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_lists.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_lists.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_nav-divider.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_nav-divider.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_pagination.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_pagination.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_reset-text.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_reset-text.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_resize.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_resize.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_screen-reader.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_screen-reader.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_size.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_size.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_table-row.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_table-row.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_text-emphasis.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_text-emphasis.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_text-hide.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_text-hide.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_text-truncate.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_text-truncate.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_transition.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_transition.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/bootstrap/scss/mixins/_visibility.scss" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/bootstrap/scss/mixins/_visibility.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/chart.js/Chart.bundle.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/chart.js/Chart.bundle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/chart.js/Chart.bundle.min.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/chart.js/Chart.bundle.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/chart.js/Chart.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/chart.js/Chart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/chart.js/Chart.min.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/chart.js/Chart.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/datatables/dataTables.bootstrap4.css" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/datatables/dataTables.bootstrap4.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/datatables/dataTables.bootstrap4.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/datatables/dataTables.bootstrap4.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/datatables/dataTables.bootstrap4.min.css" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/datatables/dataTables.bootstrap4.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/datatables/dataTables.bootstrap4.min.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/datatables/dataTables.bootstrap4.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/datatables/jquery.dataTables.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/datatables/jquery.dataTables.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/datatables/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/datatables/jquery.dataTables.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/LICENSE.txt" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/LICENSE.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/all.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/all.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/all.min.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/all.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/brands.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/brands.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/brands.min.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/brands.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/fontawesome.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/fontawesome.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/fontawesome.min.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/fontawesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/regular.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/regular.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/regular.min.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/regular.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/solid.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/solid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/solid.min.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/solid.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/svg-with-js.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/svg-with-js.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/svg-with-js.min.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/svg-with-js.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/v4-shims.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/v4-shims.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/css/v4-shims.min.css" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/css/v4-shims.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/all.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/all.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/all.min.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/all.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/brands.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/brands.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/brands.min.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/brands.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/conflict-detection.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/conflict-detection.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/conflict-detection.min.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/conflict-detection.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/fontawesome.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/fontawesome.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/fontawesome.min.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/fontawesome.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/regular.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/regular.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/regular.min.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/regular.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/solid.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/solid.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/solid.min.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/solid.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/v4-shims.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/v4-shims.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/js/v4-shims.min.js" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/js/v4-shims.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/_animated.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/_animated.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/_bordered-pulled.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/_bordered-pulled.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/_core.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/_core.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/_fixed-width.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/_fixed-width.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/_icons.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/_icons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/_larger.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/_larger.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/_list.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/_list.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/_mixins.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/_mixins.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/_rotated-flipped.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/_rotated-flipped.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/_screen-reader.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/_screen-reader.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/_shims.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/_shims.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/_stacked.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/_stacked.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/_variables.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/_variables.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/brands.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/brands.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/fontawesome.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/fontawesome.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/regular.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/regular.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/solid.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/solid.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/less/v4-shims.less" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/less/v4-shims.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/package.json" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_animated.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/_animated.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/_bordered-pulled.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_core.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/_core.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/_fixed-width.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_icons.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/_icons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_larger.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/_larger.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_list.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/_list.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_mixins.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/_rotated-flipped.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/_screen-reader.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_shims.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/_shims.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_stacked.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/_stacked.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/_variables.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/brands.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/brands.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/fontawesome.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/fontawesome.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/regular.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/regular.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/solid.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/solid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/scss/v4-shims.scss" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/scss/v4-shims.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/sprites/brands.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/sprites/brands.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/sprites/regular.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/sprites/regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/sprites/solid.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/sprites/solid.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/500px.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/500px.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/accessible-icon.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/accessible-icon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/accusoft.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/accusoft.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/acquisitions-incorporated.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/acquisitions-incorporated.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/adn.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/adn.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/adobe.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/adobe.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/adversal.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/adversal.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/affiliatetheme.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/affiliatetheme.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/airbnb.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/airbnb.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/algolia.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/algolia.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/alipay.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/alipay.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/amazon-pay.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/amazon-pay.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/amazon.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/amazon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/amilia.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/amilia.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/android.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/android.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/angellist.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/angellist.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/angrycreative.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/angrycreative.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/angular.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/angular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/app-store-ios.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/app-store-ios.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/app-store.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/app-store.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/apper.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/apper.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/apple-pay.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/apple-pay.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/apple.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/apple.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/artstation.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/artstation.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/asymmetrik.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/asymmetrik.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/atlassian.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/atlassian.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/audible.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/audible.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/autoprefixer.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/autoprefixer.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/avianex.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/avianex.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/aviato.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/aviato.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/aws.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/aws.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bandcamp.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/bandcamp.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/battle-net.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/battle-net.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/behance-square.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/behance-square.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/behance.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/behance.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bimobject.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/bimobject.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bitbucket.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/bitbucket.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bitcoin.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/bitcoin.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bity.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/bity.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/black-tie.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/black-tie.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/blackberry.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/blackberry.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/blogger-b.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/blogger-b.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/blogger.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/blogger.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bluetooth-b.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/bluetooth-b.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bluetooth.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/bluetooth.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/bootstrap.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/bootstrap.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/btc.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/btc.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/buffer.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/buffer.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/buromobelexperte.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/buromobelexperte.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/buysellads.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/buysellads.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/canadian-maple-leaf.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/canadian-maple-leaf.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-amazon-pay.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/cc-amazon-pay.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-amex.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/cc-amex.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-apple-pay.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/cc-apple-pay.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-diners-club.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/cc-diners-club.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-discover.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/cc-discover.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-jcb.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/cc-jcb.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-mastercard.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/cc-mastercard.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-paypal.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/cc-paypal.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-stripe.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/cc-stripe.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/cc-visa.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/cc-visa.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/centercode.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/centercode.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/centos.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/centos.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/svgs/brands/chrome.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/svgs/brands/chrome.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.eot" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-brands-400.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-brands-400.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-brands-400.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.woff" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-brands-400.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-brands-400.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.eot" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-regular-400.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-regular-400.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-regular-400.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.woff" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-regular-400.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-regular-400.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.eot" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-solid-900.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.svg" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-solid-900.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-solid-900.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.woff" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-solid-900.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" afterPath="$PROJECT_DIR$/resources/css/fontawesome-free/webfonts/fa-solid-900.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/jquery-easing/jquery.easing.compatibility.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/jquery-easing/jquery.easing.compatibility.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/jquery-easing/jquery.easing.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/jquery-easing/jquery.easing.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/jquery-easing/jquery.easing.min.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/jquery-easing/jquery.easing.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/jquery/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/jquery/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/jquery/jquery.min.map" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/jquery/jquery.min.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/jquery/jquery.slim.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/jquery/jquery.slim.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/jquery/jquery.slim.min.js" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/jquery/jquery.slim.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/dashboard/vendor/jquery/jquery.slim.min.map" afterPath="$PROJECT_DIR$/resources/js/dashboard/vendor/jquery/jquery.slim.min.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/jquery-ui/jquery-ui.js" afterPath="$PROJECT_DIR$/resources/js/jquery-ui/jquery-ui.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/old-1/resources/assets/js/script.js" afterPath="$PROJECT_DIR$/resources/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor.js" afterPath="$PROJECT_DIR$/public/js/vendor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/js/app.js" afterPath="$PROJECT_DIR$/resources/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/js/components/Example.js" afterPath="$PROJECT_DIR$/resources/js/components/Example.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/app.scss" afterPath="$PROJECT_DIR$/resources/sass/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/old-1/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/sources/old-1/resources/views/welcome.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -706,21 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <file leaf-file-name="test-container.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/test-container.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="-750">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
+      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/layouts/footer.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="380">
+              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -852,43 +162,6 @@
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="mathx.uz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mathx.uz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="mathx.uz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mathx.uz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="mathx.uz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mathx.uz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="mathx.uz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mathx.uz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="mathx.uz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mathx.uz" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -943,26 +216,25 @@
       <workItem from="1578682811365" duration="540000" />
       <workItem from="1578760988399" duration="8031000" />
       <workItem from="1578770096636" duration="325000" />
-      <workItem from="1578830479710" duration="13571000" />
+      <workItem from="1578830479710" duration="13699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53769000" />
+    <option name="totallyTimeSpent" value="53897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20314735" sideWeight="0.48696846" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20314735" sideWeight="0.48696846" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5028612" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26200274" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26200274" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20314735" sideWeight="0.51303154" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1324,14 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/test-container.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-559">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-67">
@@ -1380,18 +644,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/layouts/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1404,10 +668,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/test-container.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="-750">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/dashboard/layouts/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding />
         </state>
       </provider>
