@@ -30,7 +30,7 @@
 
                         <div class="col-lg-12 mb-5">
                             <form method="POST" action="/profile">
-                                @method('PUT')
+                                @csrf
                                 <?php $counter = 1; ?>
                                     <script id="jsonData">
                                         var jsonTests = <?php print_r($jsonData); ?>
@@ -50,7 +50,7 @@
                                         </div> <!-- /.task-body -->
                                     </div> <!-- task -->
                                 @endforeach
-                                <button class="btn-success btn">Сдать тесты</button>
+                                <button type="submit" class="btn-success btn">Сдать тесты</button>
                             </form>
                         </div> <!-- /.col-lg-12 -->
 
