@@ -2601,4 +2601,4 @@ module.exports = __webpack_require__(/*! react */"./node_modules/react/index.js"
 
 /***/ })
 
-}]);
+},[[1,"/js/manifest"]]]);
