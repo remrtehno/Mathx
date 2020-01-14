@@ -175,7 +175,7 @@ class Dashboard extends Controller{
 			
 			DB::table('users')->where('id', $user_id)->update(['end_test' => strtotime(date('Y-m-d H:i')), ]);
 			// 0.8 is percent of correct right answers
-			if($count_corr_answ > ceil(count($kod_otvet) * 0.8)) {
+			if($count_corr_answ >= ceil(count($kod_otvet) * 0.8)) {
 				
 				$name_lvl_table = DB::table('levels_tests')->where('name_db', '=', $name_db )->get()->first();
 				if(!empty($name_lvl_table)) {
