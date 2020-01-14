@@ -77,8 +77,6 @@ class Dashboard extends Controller{
 				$this->allow_tests = true;
 			
 			//7
-			} else {
-				session(['alert' => 'No works condition.']);
 			}
 			
 			
@@ -175,6 +173,7 @@ class Dashboard extends Controller{
 				}
 			}
 			
+			DB::table('users')->where('id', $user_id)->update(['end_test' => strtotime(date('Y-m-d H:i')), ]);
 			// 0.8 is percent of correct right answers
 			if($count_corr_answ > ceil(count($kod_otvet) * 0.8)) {
 				
