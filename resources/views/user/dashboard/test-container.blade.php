@@ -7,7 +7,7 @@
 
         @include('user/dashboard/layouts/sidebar')
 
-
+        {{--{{ dd(get_defined_vars()) }}--}}
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
