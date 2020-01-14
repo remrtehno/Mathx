@@ -34,12 +34,17 @@ class Dashboard extends Controller{
 			$end_test = $users->first()->end_test;
 			$start_test = $users->first()->start_test;
 			
+			if(empty($end_test)) {
+				$end_test = 10;
+			}
+			
 			if(!empty($end_test)) {
 				$more_5h = ($timenow - $end_test) >= 18000;
 			}
 			if(!empty($end_test)) {
 				$more_6h = ($timenow - $start_test) >= 21640;
 			}
+			
 			
 			if(empty($end_test) && empty($start_test)) {
 				$this->allow_tests = true;
@@ -144,6 +149,53 @@ class Dashboard extends Controller{
 		}
 		
 		return view('signup');
+	}
+	
+	public function end_test(Request $request) {
+		$user_id = session()->get('login');
+		if($user_id) {
+			$response = $request->all();
+			$name_db =$response['name_db'];
+			$flights = new \App\Math;
+			$flights->setTable($name_db);
+			$get_test = $flights->get()->toArray();
+			
+
+			//check answers
+			$kod_otvet = [];
+			//count correct answers
+			$count_corr_answ = 0;
+			foreach ($get_test as $val) {
+				$kod_otvet[] = $val['kod_otvet'];
+				if (in_array($val['kod_otvet'], $response)) {
+					$count_corr_answ++;
+					//echo $val['kod_otvet'];
+				}
+			}
+			
+			// 0.8 is percent of correct right answers
+			if($count_corr_answ > ceil(count($kod_otvet) * 0.8)) {
+				
+				$name_lvl_table = DB::table('levels_tests')->where('name_db', '=', $name_db )->get()->first();
+				if(!empty($name_lvl_table)) {
+					$id = $name_lvl_table->id;
+					$next_lvl = DB::table('levels_tests')->where('id', '=', $id+1 )->get()->first();
+					DB::table('users')->where('id', $user_id)->update(['level_test' => $next_lvl->level,  ]);
+				}
+				
+				session(['success' => 'Поздравляем, Вы успешно сдали тест ответив правильно на '. $count_corr_answ .' из ' .  count($kod_otvet), ]);
+				return redirect()->action('User\Dashboard@test');
+			} else {
+				
+				$output_danger = $count_corr_answ > 5 ? 'ов!' : 'а!';
+				session(['danger' => 'Вы не прошли тест, ответив правильно только на '. $count_corr_answ . " вопрос" . $output_danger, ]);
+				return redirect()->action('User\Dashboard@test');
+			}
+			
+			
+		} else {
+			abort( 403, 'Unauthorized action.' );
+		}
 	}
 
 }
