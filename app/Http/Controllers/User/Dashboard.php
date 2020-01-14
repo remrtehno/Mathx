@@ -141,15 +141,7 @@ class Dashboard extends Controller{
 				$get_test = $flights->get()->toArray();
 			}
 			
-			
-			// huck might be a refactored
-			$id_test = 'A1.1';
-			if(!empty($name_lvl_table)) {
-				$id_test = $name_lvl_table->first()->name_db;
-			}
-			
-
-			return view('user.dashboard.test-container', ['users' => $users->first(), 'data' => $get_test, 'jsonData' => $get_test_json, 'time_left' => $this->time_left, 'id_test' => $id_test,]);
+			return view('user.dashboard.test-container', ['users' => $users->first(), 'data' => $get_test, 'jsonData' => $get_test_json, 'time_left' => $this->time_left, 'id_test' => $name_lvl_table->first()->name_db,]);
 		}
 		
 		return view('signup');
