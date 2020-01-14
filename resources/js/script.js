@@ -28,7 +28,30 @@ $(function () {
 
 $( document ).ready(function() {
 
+    //timer for tests
+    function startTimer(duration, display) {
+        var timer = duration, minutes, seconds;
+        setInterval(function () {
+            minutes = parseInt(timer / 60, 10);
+            seconds = parseInt(timer % 60, 10);
 
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+
+            display.textContent = minutes + ":" + seconds;
+
+            if (--timer < 0) {
+                timer = duration;
+            }
+        }, 1000);
+    }
+
+    //60 * 5
+    let getSeconds = document.querySelector('#time');
+    if(getSeconds) getSeconds = Number(getSeconds.getAttribute('data-time'));
+    let display = document.querySelector('#time');
+    startTimer(getSeconds, display);
+    //end tests timer
 
     $('#sidebarToggle').click( (e) => {
         if(localStorage.getItem('open-sidebar') === 'true') {
@@ -61,5 +84,13 @@ $( document ).ready(function() {
             }
         });
     }
+
+
+    //make all inputs values uppercase for tasks
+
+    $('.task input').val(function () {
+        return this.value.toUpperCase();
+    })
+
 
 });

@@ -39,6 +39,30 @@
                             </div> <!-- col-lg-12 -->
                         @endif
 
+                        @if (session()->get('success'))
+                            <div class="col-lg-12 mb-3">
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    {{ session()->get('success') }}
+                                    {{ session()->forget('success') }}
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> <!-- alert -->
+                            </div> <!-- col-lg-12 -->
+                        @endif
+
+                        @if (session()->get('danger'))
+                            <div class="col-lg-12 mb-3">
+                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                    {{ session()->get('danger') }}
+                                    {{ session()->forget('danger') }}
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> <!-- alert -->
+                            </div> <!-- col-lg-12 -->
+                        @endif
+
                         <!-- Content Column -->
                         <div class="col-lg-12 mb-4">
 							<h5> Ваш уровень:

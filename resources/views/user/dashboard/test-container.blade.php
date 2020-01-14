@@ -24,18 +24,18 @@
 
                         <!-- Content Column -->
                         <div class="col-12 mb-5 text-center">
-                            {{  date('H:i', $time_left) }}
+                            <div id="time" data-time="{{ $time_left }}"></div> <!-- /#time -->
                         </div>
                         <!-- /.col-12 -->
 
                         <div class="col-lg-12 mb-5">
-                            <form method="POST" action="/profile">
+                            <form method="POST" action="{{ route('end-test') }}">
                                 @csrf
+                                <input type="hidden" value="{{ $id_test }}" name="name_db">
                                 <?php $counter = 1; ?>
                                     <script id="jsonData">
-                                        var jsonTests = <?php print_r($jsonData); ?>
+                                        window.jsonTests = <?= $jsonData; ?>
                                     </script>
-                                    <div id="testContainer"></div>
                                 @foreach ($data as $val)
                                     <div class="task">
                                         <div class="heading mb-3">
@@ -45,7 +45,8 @@
 
                                         <div class="task-body">
                                             <div class="d-flex">
-                                                <input type="text" name="{{ $id_test }}-task-{{  $val['id'] }}">
+                                                {{--onkeyup="this.value = this.value.toUpperCase();"--}}
+                                                <input type="text" name="task-{{  $val['id'] }}" >
                                             </div>
                                         </div> <!-- /.task-body -->
                                     </div> <!-- task -->
