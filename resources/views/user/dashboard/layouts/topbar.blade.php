@@ -149,7 +149,7 @@
 		                                echo $users->phone_number;
 	                                } ?>
                                 </span>
-                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+                <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400 rounded-circle"></i>
             </a>
             <!-- Dropdown - User Information -->
             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
