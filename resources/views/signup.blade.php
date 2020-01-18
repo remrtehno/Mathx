@@ -15,12 +15,12 @@
 <!--                             @csrf -->
                             
                             {{ csrf_field() }}
-                            <div class="row mb-3">
-                                <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
                                     <label for="exampleInputEmail1">Номер телефона (обязательно)</label>
                                     <input required name="phone_number" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="phone_number">
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 mb-3">
                                     <label for="exampleInputPassword1">Пароль (обязательно)</label>
                                     <input required name="password" type="password" class="form-control" id="password">
                                 </div>

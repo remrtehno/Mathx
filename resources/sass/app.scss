@@ -19,6 +19,9 @@ a.card:hover {
 }
 .task {
   margin-bottom: 25px;
+  .heading {
+    overflow-x: auto;
+  }
 }
 .counter {
   font-weight: 900;
@@ -34,3 +37,5 @@ a.card:hover {
     opacity: .7;
   }
 }
+
+

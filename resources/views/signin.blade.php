@@ -12,23 +12,23 @@
 <!--                             @csrf -->
                             {{ csrf_field() }}
 
-                            <div class="row mb-3">
-                                <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
                                     <label for="exampleInputEmail1">Номер телефона (обязательно)</label>
                                     <input required type="text" name="phone_number" class="form-control" id="phone_number" aria-describedby="phone_number">
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 mb-3">
                                     <label for="exampleInputPassword1">Пароль (обязательно)</label>
                                     <input required type="password" name="password" class="form-control" id="Password">
                                 </div>
                             </div>
 
-                            <div class="row mb-3">
-                                <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
                                     <label for="exampleInputEmail1">Имя</label>
                                     <input type="text" name="first_name" class="form-control" id="exampleInputEmail1" aria-describedby="name">
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 mb-3">
                                     <label for="exampleInputEmail1">Фамилия</label>
                                     <input type="text" name="last_name" class="form-control" id="exampleInputEmail1" aria-describedby="last_name" >
                                 </div>
@@ -40,12 +40,12 @@
 
                             <input type="hidden" name="date_reg">
 
-                            <div class="row mb-3">
-                                <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
                                     <label for="exampleInputEmail1">Дата рождения</label>
                                     <input type="text" name="date_birth" class="form-control" id="date-picker-2" aria-describedby="emailHelp">
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 mb-3">
                                     <label for="exampleInputEmail1">Дата окончания учебного заведения</label>
                                     <input type="text" name="date_pass" class="form-control date-picker" id="date-picker" aria-describedby="date_pass" >
                                 </div>

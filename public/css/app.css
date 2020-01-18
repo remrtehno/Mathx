@@ -11500,6 +11500,10 @@ body.sidebar-toggled footer.sticky-footer {
   margin-bottom: 25px;
 }
 
+.task .heading {
+  overflow-x: auto;
+}
+
 .counter {
   font-weight: 900;
 }
