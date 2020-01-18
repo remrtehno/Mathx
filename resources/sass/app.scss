@@ -38,4 +38,61 @@ a.card:hover {
   }
 }
 
+* {
+  outline: none;
+}
+
+.mx-fx-switcher {
+  .dropdown-toggle, .dropdown-item {
+    font-size: 20px;
+  }
+  .dropdown-toggle {
+
+  }
+  .dropdown-menu {
+    background-color: $base-grey;
+    border-color: $base-grey;
+    padding: 0;
+    border-radius: 0;
+    a {
+
+      color: #ffffff;
+      &:hover {
+        color: $base-grey;
+        border-color: $base-grey;
+      }
+    }
+  }
+}
+
+
+.fizika-theme {
+  .bg-gradient-primary {
+    background: $fizika-theme;
+  }
+  .bg-primary {
+    background-color: #2e4484 !important;
+  }
+  .bg-success {
+    background-color: #165d0d !important;
+  }
+  .bg-info {
+    background-color: #247682 !important;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #361c64;
+    border-color: #361c64;
+  }
+  .text-gray-400 {
+    color: #361c64 !important;
+  }
+  #wrapper #content-wrapper {
+    background-color: #e2e3e7;
+  }
+  .topbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #361c64;
+  }
+}
+
 

@@ -42,3 +42,5 @@ Route::get('go-on', 'User\Dashboard@go_on')->name('go-on');
 Route::get('load-tests', 'User\Dashboard@load_tests')->name('load-tests');
 
 Route::post('end-test', 'User\Dashboard@end_test')->name('end-test');
+
+Route::get('switcher-theme', 'User\Dashboard@switcher_theme')->name('switcher-theme');

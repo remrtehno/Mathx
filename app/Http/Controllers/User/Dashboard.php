@@ -3,6 +3,7 @@
 
 namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
+use function foo\func;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 
@@ -13,6 +14,27 @@ class Dashboard extends Controller{
 	protected $continue_tests = null;
 	protected $action = null;
 	protected $time_left = null;
+	
+	protected $fiz = null;
+	protected $math = true;
+	protected $select = null;
+	
+	function __construct() {
+		//math set as default = false : isn't set default = true
+		session(['select' => false, ]);
+	}
+	
+	
+	// if return false is math
+	static function select_theme() {
+		if(session('select')) {
+			 return true;
+		}
+		return false;
+	}
+	
+	
+	
 
 	public function store() {
 
@@ -31,8 +53,16 @@ class Dashboard extends Controller{
 			$users = DB::table('users')->where('id', '=', $user_id )->get();
 			
 			$timenow = strtotime(date('Y-m-d H:i'));
-			$end_test = $users->first()->end_test;
-			$start_test = $users->first()->start_test;
+			
+			
+			if(self::select_theme()) {
+				$end_test = $users->first()->end_test_fiz;
+				$start_test = $users->first()->start_test_fiz;
+			} else {
+				$end_test = $users->first()->end_test;
+				$start_test = $users->first()->start_test;
+			}
+
 			
 			
 			//1
@@ -80,8 +110,12 @@ class Dashboard extends Controller{
 			}
 			
 			
-			
-			return view('user.dashboard.tests', ['users' => $users->first(), 'allow_tests' => $this->allow_tests, 'continue_tests' => $this->continue_tests, 'level_test' => $users->first()->level_test,]);
+			if(self::select_theme()) {
+				return view('user.dashboard.tests', ['users' => $users->first(), 'allow_tests' => $this->allow_tests, 'continue_tests' => $this->continue_tests, 'level_test' => $users->first()->level_test_fiz,]);
+			} else {
+				return view('user.dashboard.tests', ['users' => $users->first(), 'allow_tests' => $this->allow_tests, 'continue_tests' => $this->continue_tests, 'level_test' => $users->first()->level_test,]);
+				
+			}
 		}
 		return view('signup');
 	}
@@ -97,11 +131,6 @@ class Dashboard extends Controller{
 			$timenow = strtotime(date('Y-m-d H:i'));
 			$end_test = $users->first()->end_test;
 			$start_test = $users->first()->start_test;
-			
-			if(!empty($end_test)) {
-				$more_5h = ($timenow - $end_test) >= 18000;
-				$more_6h = ($timenow - $start_test) >= 21640;
-			}
 			
 			//1
 			if(empty($end_test) && empty($start_test)) {
@@ -133,7 +162,11 @@ class Dashboard extends Controller{
 			
 			
 			$users = DB::table('users')->where('id', '=', $user_id )->get()->first();
-			$name_lvl_table = DB::table('levels_tests')->where('level', '=', $users->level_test )->get()->first();
+			if(self::select_theme()) {
+				$name_lvl_table = DB::table('levels_tests')->where('level', '=', $users->level_test_fiz )->get()->first();
+			} else {
+				$name_lvl_table = DB::table('levels_tests')->where('level', '=', $users->level_test )->get()->first();
+			}
 			
 			
 			$get_test = [];
@@ -174,6 +207,8 @@ class Dashboard extends Controller{
 			}
 			
 			DB::table('users')->where('id', $user_id)->update(['end_test' => strtotime(date('Y-m-d H:i')), ]);
+			
+			
 			// 0.8 is percent of correct right answers
 			if($count_corr_answ >= ceil(count($kod_otvet) * 0.8)) {
 				
@@ -181,7 +216,11 @@ class Dashboard extends Controller{
 				if(!empty($name_lvl_table)) {
 					$id = $name_lvl_table->id;
 					$next_lvl = DB::table('levels_tests')->where('id', '=', $id+1 )->get()->first();
-					DB::table('users')->where('id', $user_id)->update(['level_test' => $next_lvl->level,  ]);
+					if(self::select_theme()){
+						DB::table('users')->where('id', $user_id)->update(['level_test_fiz' => $next_lvl->level,  ]);
+					} else {
+						DB::table('users')->where('id', $user_id)->update(['level_test' => $next_lvl->level,  ]);
+					}
 				}
 				
 				session(['success' => 'Поздравляем, Вы успешно сдали тест ответив правильно на '. $count_corr_answ .' из ' .  count($kod_otvet), ]);
@@ -197,6 +236,29 @@ class Dashboard extends Controller{
 		} else {
 			abort( 403, 'Unauthorized action.' );
 		}
+	}
+	
+	
+	
+	public function switcher_theme(Request $request) {
+		
+		$user_id = session()->get('login');
+		if($user_id) {
+			
+			$select = $request->all();
+			if($select['select']) {
+				$this->math = true;
+				$this->fiz = false;
+				session(['select' => false, ]);
+			} else {
+				$this->math = false;
+				$this->fiz = true;
+				session(['select' => true, ]);
+			}
+			
+			return redirect()->action('User\Dashboard@store');
+		}
+		return view('signup');
 	}
 	
 	

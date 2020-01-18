@@ -11520,3 +11520,62 @@ body.sidebar-toggled footer.sticky-footer {
   opacity: 0.7;
 }
 
+* {
+  outline: none;
+}
+
+.mx-fx-switcher .dropdown-toggle,
+.mx-fx-switcher .dropdown-item {
+  font-size: 20px;
+}
+
+.mx-fx-switcher .dropdown-menu {
+  background-color: #656776;
+  border-color: #656776;
+  padding: 0;
+  border-radius: 0;
+}
+
+.mx-fx-switcher .dropdown-menu a {
+  color: #ffffff;
+}
+
+.mx-fx-switcher .dropdown-menu a:hover {
+  color: #656776;
+  border-color: #656776;
+}
+
+.fizika-theme .bg-gradient-primary {
+  background: #340065;
+}
+
+.fizika-theme .bg-primary {
+  background-color: #2e4484 !important;
+}
+
+.fizika-theme .bg-success {
+  background-color: #165d0d !important;
+}
+
+.fizika-theme .bg-info {
+  background-color: #247682 !important;
+}
+
+.fizika-theme .btn-primary {
+  color: #fff;
+  background-color: #361c64;
+  border-color: #361c64;
+}
+
+.fizika-theme .text-gray-400 {
+  color: #361c64 !important;
+}
+
+.fizika-theme #wrapper #content-wrapper {
+  background-color: #e2e3e7;
+}
+
+.fizika-theme .topbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #361c64;
+}
+

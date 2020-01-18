@@ -17,4 +17,4 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" class="{{ session('select') == true ? 'fizika' : 'math' }}-theme">
