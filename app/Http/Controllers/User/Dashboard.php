@@ -87,7 +87,7 @@ class Dashboard extends Controller{
 	}
 	
 	public function load_tests($level_test = null) {
-		print_r($level_test);
+		
 		$user_id = session()->get('login');
 		if($user_id) {
 			
@@ -196,6 +196,18 @@ class Dashboard extends Controller{
 			
 		} else {
 			abort( 403, 'Unauthorized action.' );
+		}
+	}
+	
+	
+	//META SETTINGS
+	public function save_meta() {
+		$user_id = session()->get('login');
+		if($user_id) {
+			if ( $_POST['json'] ) {
+				$directions = $_POST['json'];
+				//mysql_real_escape_string($directions);
+			}
 		}
 	}
 

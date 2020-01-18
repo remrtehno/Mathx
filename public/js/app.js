@@ -22069,6 +22069,19 @@ if (token) {
 $(function () {
   $("#date-picker").datepicker();
   $("#date-picker-2").datepicker();
+  $('#sidebarToggle, #sidebarToggleTop').click(function (e) {
+    if (localStorage.getItem('open-sidebar') === 'true') {
+      localStorage.setItem('open-sidebar', false);
+    } else {
+      localStorage.setItem('open-sidebar', true);
+    }
+  });
+
+  if (localStorage.getItem('open-sidebar') === 'true') {
+    $('#accordionSidebar').addClass('toggled');
+  } else {
+    $('#accordionSidebar').removeClass('toggled');
+  }
 });
 $(document).ready(function () {
   //timer for tests
@@ -22091,23 +22104,13 @@ $(document).ready(function () {
 
 
   var getSeconds = document.querySelector('#time');
-  if (getSeconds) getSeconds = Number(getSeconds.getAttribute('data-time'));
-  var display = document.querySelector('#time');
-  startTimer(getSeconds, display); //end tests timer
 
-  $('#sidebarToggle').click(function (e) {
-    if (localStorage.getItem('open-sidebar') === 'true') {
-      localStorage.setItem('open-sidebar', false);
-    } else {
-      localStorage.setItem('open-sidebar', false);
-    }
-  });
+  if (getSeconds) {
+    if (getSeconds) getSeconds = Number(getSeconds.getAttribute('data-time'));
+    var display = document.querySelector('#time');
+    startTimer(getSeconds, display);
+  } //end tests timer
 
-  if (localStorage.getItem('open-sidebar') === 'true') {
-    $('#accordionSidebar').addClass('toggled');
-  } else {
-    $('#accordionSidebar').removeClass('toggled');
-  }
 
   if (window.MathJax) {
     MathJax.Hub.Config({

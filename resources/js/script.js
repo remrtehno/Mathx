@@ -22,7 +22,26 @@ if (token) {
 $(function () {
     $("#date-picker").datepicker();
     $("#date-picker-2").datepicker();
+
+    $('#sidebarToggle, #sidebarToggleTop').click( (e) => {
+
+        if(localStorage.getItem('open-sidebar') === 'true') {
+
+            localStorage.setItem('open-sidebar', false);
+        } else {
+
+            localStorage.setItem('open-sidebar', true);
+        }
+    });
+
+    if(localStorage.getItem('open-sidebar') === 'true') {
+        $('#accordionSidebar').addClass('toggled');
+    } else {
+        $('#accordionSidebar').removeClass('toggled');
+    }
 });
+
+
 
 
 
@@ -48,28 +67,15 @@ $( document ).ready(function() {
 
     //60 * 5
     let getSeconds = document.querySelector('#time');
-    if(getSeconds) getSeconds = Number(getSeconds.getAttribute('data-time'));
-    let display = document.querySelector('#time');
-    startTimer(getSeconds, display);
+    if(getSeconds) {
+        if (getSeconds) getSeconds = Number(getSeconds.getAttribute('data-time'));
+        let display = document.querySelector('#time');
+        startTimer(getSeconds, display);
+    }
     //end tests timer
 
-    $('#sidebarToggle').click( (e) => {
-        if(localStorage.getItem('open-sidebar') === 'true') {
-
-            localStorage.setItem('open-sidebar', false);
-        } else {
-
-            localStorage.setItem('open-sidebar', false);
-        }
-    });
 
 
-
-    if(localStorage.getItem('open-sidebar') === 'true') {
-        $('#accordionSidebar').addClass('toggled');
-    } else {
-        $('#accordionSidebar').removeClass('toggled');
-    }
 
 
     if(window.MathJax) {
@@ -91,6 +97,7 @@ $( document ).ready(function() {
     $('.task input').val(function () {
         return this.value.toUpperCase();
     })
+
 
 
 });
