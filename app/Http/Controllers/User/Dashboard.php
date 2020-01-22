@@ -75,34 +75,34 @@ class Dashboard extends Controller{
 				$this->continue_tests = true;
 				
 			//3
-			} elseif( (!$end_test || ($end_test < $start_test)) && ( (3600 <= $timenow - $start_test) && ($timenow - $start_test < 21640) ) ) {
+			} elseif( (!$end_test || ($end_test < $start_test)) && ( (3600 <= $timenow - $start_test) && ($timenow - $start_test < 10080) ) ) {
 				
 				$this->allow_tests = null;
 				$this->continue_tests = null;
 				
 				$end_test = $start_test + 3600;
 				DB::table('users')->where('id', $user_id)->update(['end_test' => $end_test, ]);
-				$this->time_left = 18000 - $timenow + $end_test;
+				$this->time_left = 7200 - $timenow + $end_test;
 				session(['alert' => 'Вы можете пройти тест через ' . date('H:i',$this->time_left),]);
 				
 			//4
-			} elseif( (!$end_test || ($end_test < $start_test) ) && ( ($timenow - $start_test >= 21640) ) )  {
+			} elseif( (!$end_test || ($end_test < $start_test) ) && ( ($timenow - $start_test >= 10080) ) )  {
 				
 				$end_test = $start_test + 3600;
 				DB::table('users')->where('id', $user_id)->update(['end_test' => $end_test, ]);
 				$this->allow_tests = true;
 				
 			//5
-			} elseif( ($end_test >= $start_test) &&  (($timenow - $start_test) < 21640)  ) {
+			} elseif( ($end_test >= $start_test) &&  (($timenow - $start_test) < 10080)  ) {
 				
 				$this->allow_tests = null;
 				$this->continue_tests = null;
 				
-				$this->time_left = 18000 - $timenow + $end_test;
+				$this->time_left = 7200 - $timenow + $end_test;
 				session(['alert' => 'Вы можете пройти тест через ' . date('H:i',$this->time_left), ]);
 				
 			//6
-			} elseif( ($end_test > $start_test) && ($timenow - $start_test >= 21640) ) {
+			} elseif( ($end_test > $start_test) && ($timenow - $start_test >= 10080) ) {
 				
 				$this->allow_tests = true;
 			
@@ -142,18 +142,18 @@ class Dashboard extends Controller{
 				
 				$this->time_left = ($start_test - $timenow + 3600);
 				//3
-			} elseif( (!$end_test || ($end_test < $start_test)) && ( (3600 <= $timenow - $start_test) && ($timenow - $start_test < 21640) ) ) {
+			} elseif( (!$end_test || ($end_test < $start_test)) && ( (3600 <= $timenow - $start_test) && ($timenow - $start_test < 10080) ) ) {
 				
 				DB::table('users')->where('id', $user_id)->update(['start_test' => $timenow,  ]);
 				$this->time_left = 3600;
 				
 				//4
-			} elseif( (!$end_test || ($end_test < $start_test) ) && ( ($timenow - $start_test >= 21640) ) )  {
+			} elseif( (!$end_test || ($end_test < $start_test) ) && ( ($timenow - $start_test >= 10080) ) )  {
 			
 				//5
-			} elseif( ($end_test > $start_test) &&  (($timenow - $start_test) < 21640) ) {
+			} elseif( ($end_test > $start_test) &&  (($timenow - $start_test) < 10080) ) {
 				//6
-			} elseif( ($end_test > $start_test) && ($timenow - $start_test >= 21640) ) {
+			} elseif( ($end_test > $start_test) && ($timenow - $start_test >= 10080) ) {
 				
 				DB::table('users')->where('id', $user_id)->update(['start_test' => $timenow,  ]);
 				$this->time_left = 3600;
