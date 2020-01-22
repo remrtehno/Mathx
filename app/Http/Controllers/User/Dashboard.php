@@ -19,6 +19,8 @@ class Dashboard extends Controller{
 	protected $math = true;
 	protected $select = null;
 	
+	protected $results = null;
+	
 	function __construct() {
 		//math set as default = false : isn't set default = true
 		session(['select' => false, ]);
@@ -109,11 +111,14 @@ class Dashboard extends Controller{
 			//7
 			}
 			
+			if(session()->has('last_result')) {
+				$this->results = $users->first()->last_result;
+			}
 			
 			if(self::select_theme()) {
-				return view('user.dashboard.tests', ['users' => $users->first(), 'allow_tests' => $this->allow_tests, 'continue_tests' => $this->continue_tests, 'level_test' => $users->first()->level_test_fiz,]);
+				return view('user.dashboard.tests', ['users' => $users->first(), 'allow_tests' => $this->allow_tests, 'continue_tests' => $this->continue_tests, 'level_test' => $users->first()->level_test_fiz, 'results' =>  $this->results, ]);
 			} else {
-				return view('user.dashboard.tests', ['users' => $users->first(), 'allow_tests' => $this->allow_tests, 'continue_tests' => $this->continue_tests, 'level_test' => $users->first()->level_test,]);
+				return view('user.dashboard.tests', ['users' => $users->first(), 'allow_tests' => $this->allow_tests, 'continue_tests' => $this->continue_tests, 'level_test' => $users->first()->level_test, 'results' => $this->results, ]);
 				
 			}
 		}
@@ -198,15 +203,27 @@ class Dashboard extends Controller{
 			$kod_otvet = [];
 			//count correct answers
 			$count_corr_answ = 0;
-			foreach ($get_test as $val) {
+			//invalid test
+			$invalid_test = [];
+			foreach ($get_test as $key => $val) {
 				$kod_otvet[] = $val['kod_otvet'];
 				if (in_array($val['kod_otvet'], $response)) {
 					$count_corr_answ++;
 					//echo $val['kod_otvet'];
-				}
+					
+					//NEED REFACTOR//HACK #############
+				} else {                                                                                          // 1 token // 2 namedb
+						if(array_values($response)[$key+2 ]) {
+							$invalid_test[$key+1] = array('id' => $val['id'], 'uslovie' => htmlentities($val['uslovie']), 'kod_otvet' => array_values($response)[$key+2 ], );
+						}
+					}
+					//!!!! NEED REFACTOR
 			}
 			
-			DB::table('users')->where('id', $user_id)->update(['end_test' => strtotime(date('Y-m-d H:i')), ]);
+			session(['last_result' => true, ]);
+			
+			DB::table('users')->where('id', $user_id)->update(['end_test' => strtotime(date('Y-m-d H:i')), 'last_result' => $invalid_test,  ]);
+			
 			
 			
 			// 0.8 is percent of correct right answers
@@ -223,11 +240,13 @@ class Dashboard extends Controller{
 					}
 				}
 				
-				session(['success' => 'Поздравляем, Вы успешно сдали тест ответив правильно на '. $count_corr_answ .' из ' .  count($kod_otvet), ]);
+				session(['success' => 'Поздравляем, Вы успешно сдали тест ответив правильно на '. $count_corr_answ .' из ' .  count($kod_otvet), 'last_result' => true, ]);
 				return redirect()->action('User\Dashboard@test');
 			} else {
 				
 				$output_danger = $count_corr_answ > 5 ? 'ов!' : 'а!';
+				
+				
 				session(['danger' => 'Вы не прошли тест, ответив правильно только на '. $count_corr_answ . " вопрос" . $output_danger, ]);
 				return redirect()->action('User\Dashboard@test');
 			}
