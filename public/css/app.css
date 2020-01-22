@@ -11500,10 +11500,6 @@ body.sidebar-toggled footer.sticky-footer {
   margin-bottom: 25px;
 }
 
-.task .heading {
-  overflow-x: auto;
-}
-
 .counter {
   font-weight: 900;
 }
@@ -11577,5 +11573,11 @@ body.sidebar-toggled footer.sticky-footer {
 
 .fizika-theme .topbar.navbar-light .navbar-nav .nav-item .nav-link {
   color: #361c64;
+}
+
+@media (max-width: 992px) {
+  .task .heading {
+    overflow-x: auto;
+  }
 }
 

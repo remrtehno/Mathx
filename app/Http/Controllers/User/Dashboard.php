@@ -70,7 +70,7 @@ class Dashboard extends Controller{
 				
 				$this->allow_tests = true;
 			//2
-			} elseif( (!$end_test || ($end_test < $start_test)) && ( (3600 <= $timenow - $start_test) && ($timenow - $start_test < 21640) ) ) {
+			} elseif( !$end_test || ($end_test < $start_test) && (($timenow - $start_test) < 3600) ) {
 				
 				$this->continue_tests = true;
 				
