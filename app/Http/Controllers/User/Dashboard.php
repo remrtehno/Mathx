@@ -113,13 +113,17 @@ class Dashboard extends Controller{
 			//7
 			}
 			
-			if(session()->has('last_result')) {
-				$this->results = $users->first()->last_result;
-			}
+
 			
 			if(self::select_theme()) {
+				if(session()->has('last_result')) {
+					$this->results = $users->first()->last_result_fiz;
+				}
 				return view('user.dashboard.tests', ['users' => $users->first(), 'allow_tests' => $this->allow_tests, 'continue_tests' => $this->continue_tests, 'level_test' => $users->first()->level_test_fiz, 'results' =>  $this->results, ]);
 			} else {
+				if(session()->has('last_result')) {
+					$this->results = $users->first()->last_result;
+				}
 				return view('user.dashboard.tests', ['users' => $users->first(), 'allow_tests' => $this->allow_tests, 'continue_tests' => $this->continue_tests, 'level_test' => $users->first()->level_test, 'results' => $this->results, ]);
 				
 			}
@@ -216,35 +220,57 @@ class Dashboard extends Controller{
 			$count_corr_answ = 0;
 			//invalid test
 			$invalid_test = [];
-			foreach ($get_test as $key => $val) {
-				$kod_otvet[] = $val['kod_otvet'];
-				if (in_array($val['kod_otvet'], $response)) {
-					$count_corr_answ++;
-					//echo $val['kod_otvet'];
-					
-					//NEED REFACTOR//HACK #############
-				} else {                                  // 1 token // 2 namedb
+			
+			if(self::select_theme()) {
+				foreach ($get_test as $key => $val) {
+					$kod_otvet[] = $val['kod_otvet'];
+					if (($val['kod_otvet'] === array_values($response)[$key+2])) {
+						$count_corr_answ++;
+						//echo $val['kod_otvet'];
+						//NEED REFACTOR//HACK #############
+					} else {                                  // 1 token // 2 namedb
+						if($values_array[$key+2]) {
+							$invalid_test[$key+1] = array('id' => $val['id'], 'uslovie' => htmlentities($val['uslovie']), 'kod_otvet' => array_values($response)[$key+2 ], );
+						}
+					}
+					//!!!! NEED REFACTOR
+				}
+				
+				DB::table('users')->where('id', $user_id)->update(['end_test' => strtotime(date('Y-m-d H:i')), 'last_result_fiz' => $invalid_test,  ]);
+			} else {
+				foreach ($get_test as $key => $val) {
+					$kod_otvet[] = $val['kod_otvet'];
+					if (in_array($val['kod_otvet'], $response)) {
+						$count_corr_answ++;
+						//echo $val['kod_otvet'];
+						
+						//NEED REFACTOR//HACK #############
+					} else {                                  // 1 token // 2 namedb
 						
 						if($values_array[$key+2]) {
 							$invalid_test[$key+1] = array('id' => $val['id'], 'uslovie' => htmlentities($val['uslovie']), 'kod_otvet' => array_values($response)[$key+2 ], );
 						}
 					}
 					//!!!! NEED REFACTOR
+				}
+				DB::table('users')->where('id', $user_id)->update(['end_test' => strtotime(date('Y-m-d H:i')), 'last_result_fiz' => $invalid_test,  ]);
 			}
 			
 			
-			
-			
+
 			session(['last_result' => true, ]);
-			
-			DB::table('users')->where('id', $user_id)->update(['end_test' => strtotime(date('Y-m-d H:i')), 'last_result' => $invalid_test,  ]);
+
 			
 			
 			
 			// 0.8 is percent of correct right answers
 			if($count_corr_answ >= ceil(count($kod_otvet) * 0.8)) {
+				if(self::select_theme()) {
+					$name_lvl_table = DB::table( 'levels_tests_fiz' )->where( 'name_db', '=', $name_db )->get()->first();
+				} else {
+					$name_lvl_table = DB::table( 'levels_tests' )->where( 'name_db', '=', $name_db )->get()->first();
+				}
 				
-				$name_lvl_table = DB::table('levels_tests')->where('name_db', '=', $name_db )->get()->first();
 				if(!empty($name_lvl_table)) {
 					$id = $name_lvl_table->id;
 					$next_lvl = DB::table('levels_tests')->where('id', '=', $id+1 )->get()->first();
@@ -260,8 +286,6 @@ class Dashboard extends Controller{
 			} else {
 				
 				$output_danger = $count_corr_answ > 5 ? 'ов!' : 'а!';
-				
-				
 				session(['danger' => 'Вы не прошли тест, ответив правильно только на '. $count_corr_answ . " вопрос" . $output_danger, ]);
 				return redirect()->action('User\Dashboard@test');
 			}

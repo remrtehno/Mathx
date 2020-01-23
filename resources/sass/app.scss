@@ -11,7 +11,7 @@
 
 @import "../css/sb-admin-2.css";
 @import "../css/style.css";
-
+@import "custom-input";
 
 a.card:hover {
   opacity: .85;
@@ -72,6 +72,7 @@ a.card:hover {
 
 
 .fizika-theme {
+  color: #000000;
   .bg-gradient-primary {
     background: $fizika-theme;
   }

@@ -45,12 +45,45 @@
                                                 <?= $val['uslovie'] ?>
                                             </div> <!-- /.heading -->
 
-                                            <div class="task-body">
-                                                <div class="d-flex">
-                                                    {{--onkeyup="this.value = this.value.toUpperCase();"--}}
-                                                    <input type="text" name="task-{{  $val['id'] }}" >
-                                                </div>
-                                            </div> <!-- /.task-body -->
+                                            @if(!$fiz)
+                                                <div class="task-body">
+                                                    <div class="d-flex">
+                                                        {{--onkeyup="this.value = this.value.toUpperCase();"--}}
+                                                        <input type="text" name="task-{{  $val['id'] }}" >
+                                                    </div>
+                                                </div> <!-- /.task-body -->
+                                            @endif
+
+                                            @if($fiz)
+                                                <div class="task-body col-md-4">
+                                                    <input type="hidden" checked value="null" name="task-{{  $val['id'] }}">
+                                                    <div class="form-check custom-input">
+                                                        <input class="form-check-input" type="radio" name="task-{{  $val['id'] }}" id="task-{{  $val['id'] }}-answer-a" value="A" >
+                                                        <label class="form-check-label" for="task-{{  $val['id'] }}-answer-a">
+                                                            {{  $val['A'] }}
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check custom-input">
+                                                        <input class="form-check-input" type="radio" name="task-{{  $val['id'] }}" id="task-{{  $val['id'] }}-answer-b" value="B" >
+                                                        <label class="form-check-label" for="task-{{  $val['id'] }}-answer-b">
+                                                            {{  $val['B'] }}
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check custom-input">
+                                                        <input class="form-check-input" type="radio" name="task-{{  $val['id'] }}" id="task-{{  $val['id'] }}-answer-c" value="C" >
+                                                        <label class="form-check-label" for="task-{{  $val['id'] }}-answer-c">
+                                                            {{  $val['C'] }}
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check custom-input">
+                                                        <input class="form-check-input" type="radio" name="task-{{  $val['id'] }}" id="task-{{  $val['id'] }}-answer-d" value="D" >
+                                                        <label class="form-check-label" for="task-{{  $val['id'] }}-answer-d">
+                                                            {{  $val['D'] }}
+                                                        </label>
+                                                    </div>
+                                                </div> <!-- /.task-body -->
+                                            @endif
+
                                         </div> <!-- task -->
                                     @endforeach
                                 </div> <!-- /.tests-container -->
