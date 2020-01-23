@@ -24,6 +24,7 @@ class SignUp extends Controller
 			$users->last_name = $user_new['last_name'];
 			$users->first_name = $user_new['first_name'];
 			$users->level_test = 'A1.1';
+			$users->level_test_fiz = 'A1.1';
 
 
 
