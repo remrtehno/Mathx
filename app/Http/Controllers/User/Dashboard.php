@@ -198,7 +198,12 @@ class Dashboard extends Controller{
 			$flights->setTable($name_db);
 			$get_test = $flights->get()->toArray();
 			
-
+			
+			$values_array = [];
+			foreach ( $response as $item ) {
+				$values_array[] = $item ? : 'null';
+			}
+			
 			//check answers
 			$kod_otvet = [];
 			//count correct answers
@@ -212,13 +217,17 @@ class Dashboard extends Controller{
 					//echo $val['kod_otvet'];
 					
 					//NEED REFACTOR//HACK #############
-				} else {                                                                                          // 1 token // 2 namedb
-						if(array_values($response)[$key+2 ]) {
+				} else {                                  // 1 token // 2 namedb
+						
+						if($values_array[$key+2]) {
 							$invalid_test[$key+1] = array('id' => $val['id'], 'uslovie' => htmlentities($val['uslovie']), 'kod_otvet' => array_values($response)[$key+2 ], );
 						}
 					}
 					//!!!! NEED REFACTOR
 			}
+			
+			
+			
 			
 			session(['last_result' => true, ]);
 			

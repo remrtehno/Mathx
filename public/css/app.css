@@ -11497,7 +11497,17 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 .task {
-  margin-bottom: 25px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.task:not(:last-child) {
+  border-bottom: 2px solid rgba(75, 112, 221, 0.45);
+}
+
+.alert-danger .task {
+  border-color: rgba(0, 0, 0, 0.5);
+  border-width: 1px;
 }
 
 .counter {

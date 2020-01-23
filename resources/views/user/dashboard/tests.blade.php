@@ -67,15 +67,16 @@
                             {{ session()->forget('last_result') }}
                             <div class="col-lg-12 mb-3">
                                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                                    @foreach (json_decode($results) as $val)
-                                        <div class="task">
-                                            <div class="heading mb-3">
-	                                            <?= htmlspecialchars_decode($val->id); ?>.  <?= htmlspecialchars_decode($val->uslovie); ?>
-                                            </div> <!-- /.heading mb-3 -->
-                                            <input type="text" value="<?= $val->kod_otvet; ?>">
-                                        </div> <!-- task -->
-                                        <hr style="border-top-color: #977572;">
-                                    @endforeach
+                                    <div class="tests-cotainer">
+                                        @foreach (json_decode($results) as $val)
+                                            <div class="task">
+                                                <div class="heading mb-3">
+                                                    <?= htmlspecialchars_decode($val->id); ?>.  <?= htmlspecialchars_decode($val->uslovie); ?>
+                                                </div> <!-- /.heading mb-3 -->
+                                                <input type="text" value="<?= $val->kod_otvet; ?>" disabled="disabled">
+                                            </div> <!-- task -->
+                                        @endforeach
+                                    </div><!-- /.tests-cotainer -->
                                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>

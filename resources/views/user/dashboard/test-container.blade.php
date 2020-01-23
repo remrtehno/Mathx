@@ -36,21 +36,25 @@
                                     <script id="jsonData">
                                         window.jsonTests = <?= $jsonData; ?>
                                     </script>
-                                @foreach ($data as $val)
-                                    <div class="task">
-                                        <div class="heading mb-3">
-                                            <span class="counter"> {{$counter++}}. </span>
-                                            <?= $val['uslovie'] ?>
-                                        </div> <!-- /.heading -->
 
-                                        <div class="task-body">
-                                            <div class="d-flex">
-                                                {{--onkeyup="this.value = this.value.toUpperCase();"--}}
-                                                <input type="text" name="task-{{  $val['id'] }}" >
-                                            </div>
-                                        </div> <!-- /.task-body -->
-                                    </div> <!-- task -->
-                                @endforeach
+                                <div class="tests-container">
+                                    @foreach ($data as $val)
+                                        <div class="task">
+                                            <div class="heading mb-3">
+                                                <span class="counter"> {{$counter++}}. </span>
+                                                <?= $val['uslovie'] ?>
+                                            </div> <!-- /.heading -->
+
+                                            <div class="task-body">
+                                                <div class="d-flex">
+                                                    {{--onkeyup="this.value = this.value.toUpperCase();"--}}
+                                                    <input type="text" name="task-{{  $val['id'] }}" >
+                                                </div>
+                                            </div> <!-- /.task-body -->
+                                        </div> <!-- task -->
+                                    @endforeach
+                                </div> <!-- /.tests-container -->
+
                                 <button type="submit" class="btn-success btn">Сдать тесты</button>
                             </form>
                         </div> <!-- /.col-lg-12 -->
