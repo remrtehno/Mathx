@@ -300,5 +300,5 @@ class Dashboard extends Controller{
 			}
 		}
 	}
-
+	
 }

@@ -34,7 +34,7 @@
                                 <input type="hidden" value="{{ $id_test }}" name="name_db">
                                 <?php $counter = 1; ?>
                                     <script id="jsonData">
-                                        window.jsonTests = <?= $jsonData; ?>
+                                        window.jsonTests = <?= $jsonData; ?>;
                                     </script>
 
                                 <div class="tests-container">
