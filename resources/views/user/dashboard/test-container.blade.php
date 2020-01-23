@@ -60,25 +60,25 @@
                                                     <div class="form-check custom-input">
                                                         <input class="form-check-input" type="radio" name="task-{{  $val['id'] }}" id="task-{{  $val['id'] }}-answer-a" value="A" >
                                                         <label class="form-check-label" for="task-{{  $val['id'] }}-answer-a">
-                                                            {{  $val['A'] }}
+                                                           <b>A:</b> {{  $val['A'] }}
                                                         </label>
                                                     </div>
                                                     <div class="form-check custom-input">
                                                         <input class="form-check-input" type="radio" name="task-{{  $val['id'] }}" id="task-{{  $val['id'] }}-answer-b" value="B" >
                                                         <label class="form-check-label" for="task-{{  $val['id'] }}-answer-b">
-                                                            {{  $val['B'] }}
+                                                           <b>B:</b> {{  $val['B'] }}
                                                         </label>
                                                     </div>
                                                     <div class="form-check custom-input">
                                                         <input class="form-check-input" type="radio" name="task-{{  $val['id'] }}" id="task-{{  $val['id'] }}-answer-c" value="C" >
                                                         <label class="form-check-label" for="task-{{  $val['id'] }}-answer-c">
-                                                            {{  $val['C'] }}
+                                                            <b>C:</b> {{  $val['C'] }}
                                                         </label>
                                                     </div>
                                                     <div class="form-check custom-input">
                                                         <input class="form-check-input" type="radio" name="task-{{  $val['id'] }}" id="task-{{  $val['id'] }}-answer-d" value="D" >
                                                         <label class="form-check-label" for="task-{{  $val['id'] }}-answer-d">
-                                                            {{  $val['D'] }}
+                                                           <b>D:</b> {{  $val['D'] }}
                                                         </label>
                                                     </div>
                                                 </div> <!-- /.task-body -->

@@ -11499,6 +11499,10 @@ body.sidebar-toggled footer.sticky-footer {
   padding: 0;
 }
 
+.custom-input b {
+  margin-right: 5px;
+}
+
 .custom-input label {
   padding: 12px 30px;
   width: 100%;
