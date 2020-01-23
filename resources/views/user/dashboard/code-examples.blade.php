@@ -65,72 +65,138 @@
 
                         <!-- Content Column -->
                         <div class="col-lg-12 mb-4">
-
-                            <table border="1" cellpadding="10">
-                                <thead>
+                            <p>
+                                Регистры букв - отличаются, т.е. например s=vt - правильно, а s=Vt - неправильно<br>
+                                При введении кода никаких лишних символов не ставить!<br>
+                                В тексте $\text{inf}$ - сокращенно от английского слова &laquo;infinity&raquo; - бесконечность.<br>
+                            </p>
+                            <div class="table-responsive">
+                                <table border="1" cellpadding="5">
+                                    <thead>
                                     <tr>
-                                        <th>Вид</th>
-                                        <th>Код</th>
+                                        <th>Вид:</th>
+                                        <th>Код:</th>
                                     </tr>
-                                </thead>
-                                <tbody>
+                                    </thead>
+                                    <tbody>
                                     <tr>
-                                        <td>$\cfrac{1}{2}$ </td>
-                                        <td> frac$\{$1$\}$$\{$2$\}$ или 1/2 </td>
+                                        <td> $\cfrac{1}{2}$ </td> <td> frac$\{$1$\}$$\{$2$\}$ или 1/2 </td>
                                     </tr>
-                                </tbody>
-                            </table>
+                                    <tr>
+                                        <td> $1\cfrac{2}{3}$ </td> <td> 1frac$\{$2$\}$$\{$3$\}$ </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\cfrac{a}{bc}$ </td> <td> frac$\{$a$\}$$\{$bc$\}$ или a/bc </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\cfrac{a+b}{b}$ </td> <td> frac$\{$a+b$\}$$\{$c$\}$ <br> (неправильно: $a+b/c$) </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\cfrac{a}{b+c}$ </td> <td> frac$\{$a$\}$$\{$b+c$\}$ </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $2\cfrac{1}{3}$ </td> <td> 2frac$\{$1$\}$$\{$3$\}$ </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\sqrt{a}$ </td> <td> sqrt$\{$a$\}$ </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\sqrt[3]{a}$ </td> <td> sqrt$\{$3$\}$$\{$a$\}$ </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\sqrt[3]{a^2}$ </td> <td> sqrt$\{$3$\}$$\{$a$\verb'^'$2$\}$ </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $a^{2/3}$ или $a^{\frac{2}{3}}$ </td> <td> a$\verb'^'$$\{$2/$3\}$ </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $a^2b^3$ </td> <td> a$\verb'^'$2$b\verb'^'$3 </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $2^2\cdot5^3$ </td> <td> 2$\verb'^'$2*5$\verb'^'$3 </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $x=2$ или $x_1=2$ <br> (если у уравнения только один корень) </td> <td> x=2 или 2 </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $x_1=1$, $x_2=3$ <br> (если у уравнения только два корня) </td> <td> x1=1, x2=3 или x1=3, x2=1 </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $x_1=1$, $x_2=3$, $x_3=-2$ <br> (если у уравнения три корня) </td> <td> 1,3,-2 или 1,-2,3 или 3,1,-2 или <br> 3,-2,1 или -2,1,3 или -2,3,1 </td>
+                                    </tr>
+                                    <tr>
+                                        <td> </td> <td> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $x<2$ или $x\in(-\infty,2)$ </td> <td> x<2 или (-inf,2) </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $x\leqslant2$ или $x\in(-\infty,2]$ </td> <td> x<=2 или (-inf,2] </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $x>3$ или $x\in(3,\infty)$ </td> <td> x>3 или (3,inf) </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $x\geqslant3$ или $x\in[3,\infty)$ </td> <td> x>=3 или [3,inf) </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $(1,2)\cup(3,4)$ или $x\in(1,2)\cup(3,4)$ </td> <td> (1,2)u(3,4) </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $(-\infty,1)\cup(2,\infty)$ или $x\in(-\infty,1)\cup(2,\infty)$ </td> <td> (-inf,1)u(2,inf) </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\Big(\cfrac{1}{2},3\Big]$ или $x\in\Big(\cfrac{1}{2},3\Big]$ </td> <td> $\big($frac$\{$1$\}$$\{$2$\}$,3$\big]$ </td>
+                                    </tr>
+                                    <tr>
+                                        <td> </td> <td> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\log_2 3$ </td> <td> log$\{$2$\}$$\{$3$\}$ </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\sin\alpha$ </td> <td> sin$\setminus$alpha </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\cos\alpha$ </td> <td> cos$\setminus$alpha </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\text{tg}\,\alpha$ </td> <td> tg$\setminus$alpha </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\sin\beta$ </td> <td> sin$\setminus$beta </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\sin^2\alpha$ </td> <td> sin$\verb'^'$2$\setminus$alpha </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\sin2\alpha$ </td> <td> sin2$\setminus$alpha </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\cos^32\alpha$ </td> <td> cos$\verb'^'$32$\setminus$alpha </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\cfrac{1}{\sin^2\alpha}$ </td> <td> frac$\{$1$\}$$\{$sin$\verb'^'$2$\setminus$alpha$\}$ </td>
+                                    </tr>
+                                    <tr>
+                                        <td> </td> <td> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\mu$ </td> <td> $\backslash\!\!$ mu </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\nu$ </td> <td> $\backslash\!\!$ nu </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\lambda$ </td> <td> $\backslash\!\!$ lambda </td>
+                                    </tr>
+                                    <tr>
+                                        <td> $\Delta p$ </td> <td> $\backslash\!\!$ delta p </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div><!-- /.table-responsive -->
 
-
-                            Регистры букв - отличаются, т.е. например s=vt - правильно, а s=Vt - неправильно<br>
-                            При введении кода никаких лишних символов не ставить!<br>
-
-                            Правила написания дроби:<br>
-                            Вид: $\cfrac{1}{2}$ Код: frac$\{$1$\}$$\{$2$\}$ или 1/2<br>
-                            Вид: $\cfrac{a}{bc}$ Код: frac$\{$a$\}$$\{$bc$\}$ или a/bc<br>
-                            Вид: $\cfrac{a+b}{b}$ Код: frac$\{$a+b$\}$$\{$c$\}$ (неправильно: $a+b/c$!)<br>
-                            Вид: $\cfrac{a}{b+c}$ Код: frac$\{$a$\}$$\{$b+c$\}$<br>
-                            Вид: $2\cfrac{1}{3}$ Код: 2frac$\{$1$\}$$\{$3$\}$<br>
-                            Вид $\sqrt{a}$ Код: sqrt$\{$a$\}$<br>
-                            Вид $\sqrt[3]{a}$ Код: sqrt$\{$3$\}$$\{$a$\}$<br>
-                            Вид $\sqrt[3]{a^2}$ Код: sqrt$\{$3$\}$$\{$a\verb'^'2$\}$<br>
-                            Вид: $a^{2/3}$ Код: a\verb'^'$\{$2/$3\}$<br>
-                            Вид: $a^2b^3$ Код: a\verb'^'$2$b\verb'^'$3$<br>
-                            Вид: $2^2\cdot5^3$ Код: 2\verb'^'$2$$*$5\verb'^'$3$<br>
-                            Вид: $x=2$ или $x_1=2$ (если у уравнения только один корень) Код: x=2 или 2<br>
-                            Вид: $x_1=1$, $x_2=3$ (если у уравнения только два корня) Код: x1=1, x2=3 или x1=3, x2=1<br>
-                            Вид: $x_1=1$, $x_2=3$, $x_3=-2$ (если у уравнения три корня) Код: 1,3,-2 или 1,-2,3 или 3,1,-2 или 3,-2,1 или -2,1,3 или -2,3,1<br>
-
-                            <br> <br>
-
-                            Вид: $x<2$ или $x\in(-\infty,2)$ Код: x<2 или (-inf,2)<br>
-                            Вид: $x\leqslant2$ или $x\in(-\infty,2]$ Код: x<=2 или (-inf,2]<br>
-                            Вид: $x>3$ или $x\in(3,\infty)$ Код: x>3 или (3,inf)<br>
-                            Вид: $x\geqslant3$ или $x\in[3,\infty)$ Код: x>=3 или [3,inf)<br>
-                            Вид: $(1,2)\cup(3,4)$ или $x\in(1,2)\cup(3,4)$ Код: (1,2)u(3,4)<br>
-                            Вид: $(-\infty,1)\cup(2,\infty)$ или $x\in(-\infty,1)\cup(2,\infty)$ Код: (-inf,1)u(2,inf)<br>
-                            Вид: $\Big(\cfrac{1}{2},3\Big]$ или $x\in\Big(\cfrac{1}{2},3\Big]$ Код: $\big($frac$\{$1$\}$$\{$2$\}$,3$\big]$<br>
-                            Здесь $\text{inf}$ - сокращенно от английского слова <<infinity>> - бесконечность.<br>
-
-                                <br> <br>
-
-                                Вид: $\log_2 3$ Код: log$\{$2$\}$$\{$3$\}$<br>
-                                Вид: $\sin\alpha$ Код: sin$\setminus$alpha<br>
-                                Вид: $\cos\alpha$ Код: cos$\setminus$alpha<br>
-                                Вид: $\text{tg}\,\alpha$ Код: tg$\setminus$alpha<br>
-                                Вид: $\sin\beta$ Код: sin$\setminus$beta<br>
-                                Вид: $\sin^2\alpha$ Код: sin\verb'^'$2$$\setminus$alpha<br>
-                                Вид: $\sin2\alpha$ Код: sin2$\setminus$alpha<br>
-                                Вид: $\cos^32\alpha$ Код: cos\verb'^'$3$2$\setminus$alpha<br>
-                                Вид: $\cfrac{1}{\sin^2\alpha}$ Код: frac$\{$1$\}$$\{$sin\verb'^'$2$$\setminus$alpha$\}$<br>
-
-                                <br> <br>
-
-                                Другие символы:<br>
-                                Вид: $\mu$  Код $\backslash\!\!$ mu<br>
-                                Вид: $\nu$  Код: $\backslash\!\!$ nu<br>
-                                Вид: $\lambda$  Код: $\backslash\!\!$ lambda<br>
-                                Вид: $\Delta p$ Код: $\backslash\!\!$ delta p<br>
                         </div>
 
                     </div>

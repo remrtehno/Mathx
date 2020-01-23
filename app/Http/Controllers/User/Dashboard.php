@@ -28,10 +28,12 @@ class Dashboard extends Controller{
 	
 	
 	// if return false is math
-	static function select_theme() {
+	public function select_theme() {
 		if(session('select')) {
 			 return true;
 		}
+		$this->fiz = null;
+		$this->math = true;
 		return false;
 	}
 	
@@ -168,8 +170,12 @@ class Dashboard extends Controller{
 			
 			$users = DB::table('users')->where('id', '=', $user_id )->get()->first();
 			if(self::select_theme()) {
-				$name_lvl_table = DB::table('levels_tests')->where('level', '=', $users->level_test_fiz )->get()->first();
+				$name_lvl_table = DB::table('levels_tests_fiz')->where('level', '=', $users->level_test_fiz )->get()->first();
+				$this->fiz = true;
+				$this->math = null;
 			} else {
+				$this->fiz = null;
+				$this->math = true;
 				$name_lvl_table = DB::table('levels_tests')->where('level', '=', $users->level_test )->get()->first();
 			}
 			
@@ -183,7 +189,7 @@ class Dashboard extends Controller{
 				$get_test = $flights->get()->toArray();
 			}
 			
-			return view('user.dashboard.test-container', ['users' => $users, 'data' => $get_test, 'jsonData' => $get_test_json, 'time_left' => $this->time_left, 'id_test' => $name_lvl_table->name_db ,]);
+			return view('user.dashboard.test-container', ['users' => $users, 'data' => $get_test, 'jsonData' => $get_test_json, 'time_left' => $this->time_left, 'id_test' => $name_lvl_table->name_db, 'fiz' => $this->fiz, ]);
 		}
 		
 		return view('signup');
