@@ -263,9 +263,9 @@ class Dashboard extends Controller{
 				
 			}
 			
-			print_r($invalid_test);
-			
-			print_r($values_array);
+//			print_r($invalid_test);
+//
+//			print_r($values_array);
 
 			session(['last_result' => true, ]);
 
@@ -294,12 +294,12 @@ class Dashboard extends Controller{
 				}
 				
 				session(['success' => 'Поздравляем, Вы успешно сдали тест ответив правильно на '. $count_corr_answ .' из ' .  count($kod_otvet), 'last_result' => true, ]);
-				//return redirect()->action('User\Dashboard@test');
+				return redirect()->action('User\Dashboard@test');
 			} else {
 				
 				$output_danger = $count_corr_answ > 5 ? 'ов!' : 'а!';
 				session(['danger' => 'Вы не прошли тест, ответив правильно только на '. $count_corr_answ . " вопрос" . $output_danger, ]);
-				//return redirect()->action('User\Dashboard@test');
+				return redirect()->action('User\Dashboard@test');
 			}
 			
 			
