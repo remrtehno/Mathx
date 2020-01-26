@@ -211,7 +211,7 @@ class Dashboard extends Controller{
 			
 			$values_array = [];
 			foreach ( $response as $item ) {
-				$values_array[] = $item ? : 'null';
+				$values_array[] = isset($item) ? $item : 'null';
 			}
 			
 			//check answers
