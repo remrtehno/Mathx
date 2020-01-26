@@ -22120,11 +22120,86 @@ $(document).ready(function () {
         inlineMath: [["$", "$"], ["\\(", "\\)"]]
       }
     });
-  } //make all inputs values uppercase for tasks
+  } //=======
 
 
-  $('.task input').val(function () {
-    return this.value.toUpperCase();
+  $('li.nav-toggle > button').click(function (e) {
+    //Set cookie
+    if ($.cookie('minibar') == null || $.cookie('minibar') == 0) $.cookie('minibar', 1);else {
+      $.cookie('minibar', 0);
+    }
+    e.preventDefault();
+    changeSidebarState();
+  }); //Load sidebar state
+
+  $(function () {
+    if ($.cookie('minibar') == 1) {
+      changeSidebarStateNoAnimate();
+    }
+  });
+
+  function changeSidebarState() {
+    $('.hidden-minibar').toggleClass("hide");
+    $('.site-holder').toggleClass("mini-sidebar");
+    if ($('body').css('direction') != 'ltr') {
+      if ($('.toggle-right').hasClass('fa-angle-double-right')) {
+        $('.toggle-right').removeClass('fa-angle-double-right').addClass('fa-angle-double-left');
+      } else {
+        $('.toggle-right').removeClass('fa-angle-double-left').addClass('fa-angle-double-right');
+      }
+    } else {
+      if ($('.toggle-left').hasClass('fa-angle-double-left')) {
+        $('.toggle-left').removeClass('fa-angle-double-left').addClass('fa-angle-double-right');
+      } else {
+        $('.toggle-left').removeClass('fa-angle-double-right').addClass('fa-angle-double-left');
+      }
+    }
+
+    if ($('.site-holder').hasClass('mini-sidebar')) {
+      $('.sidebar-holder').tooltip({
+        selector: "a",
+        container: "body",
+        placement: "right"
+      });
+      $('li.submenu ul').tooltip('destroy');
+    } else {
+      $('.sidebar-holder').tooltip('destroy');
+    }
+  }
+
+  function changeSidebarStateNoAnimate() {
+    $('.toggle-left').removeClass('fa-angle-double-left').addClass('fa-angle-double-right');
+
+    if ($('.site-holder').hasClass('mini-sidebar')) {
+      $('.sidebar-holder').tooltip({
+        selector: "a",
+        container: "body",
+        placement: "right"
+      });
+      $('li.submenu ul').tooltip('destroy');
+    } else {
+      $('.sidebar-holder').tooltip('destroy');
+    }
+  } //
+
+
+  if ($('.site-holder').hasClass('mini-sidebar')) {
+    $('.sidebar-holder').tooltip({
+      selector: "a",
+      container: "body",
+      placement: "right"
+    });
+    $('li.submenu').tooltip('destroy');
+  } else {
+    $('.sidebar-holder').tooltip('destroy');
+  }
+
+  $('.show-info').click(function () {
+    $('.page-information').toggleClass('hidden');
+  });
+  $('.site-holder.mini-sidebar .content').click(function () {
+    $('.site-holder.mini-sidebar li.submenu ul').hide();
+    $('.site-holder.mini-sidebar li.submenu').removeClass('active');
   });
 });
 

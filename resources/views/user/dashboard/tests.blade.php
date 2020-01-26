@@ -63,7 +63,7 @@
                             </div> <!-- col-lg-12 -->
                         @endif
 
-                        @if(session()->get('last_result'))
+                        @if(session()->get('last_result') && json_decode($results))
                             {{ session()->forget('last_result') }}
                             <div class="col-lg-12 mb-3">
                                 <div class="alert alert-danger alert-dismissible fade show" role="alert">

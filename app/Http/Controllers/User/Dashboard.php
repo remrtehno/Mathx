@@ -253,14 +253,20 @@ class Dashboard extends Controller{
 					}
 					//!!!! NEED REFACTOR
 				}
-				DB::table('users')->where('id', $user_id)->update(['end_test' => strtotime(date('Y-m-d H:i')), 'last_result_fiz' => $invalid_test,  ]);
+				if(self::select_theme()) {
+					DB::table('users')->where('id', $user_id)->update(['end_test' => strtotime(date('Y-m-d H:i')), 'last_result_fiz' => $invalid_test,  ]);
+					
+				} else {
+					DB::table('users')->where('id', $user_id)->update(['end_test' => strtotime(date('Y-m-d H:i')), 'last_result' => $invalid_test,  ]);
+					
+				}
+				
 			}
 			
 			
 
 			session(['last_result' => true, ]);
 
-			
 			
 			
 			// 0.8 is percent of correct right answers
@@ -273,7 +279,11 @@ class Dashboard extends Controller{
 				
 				if(!empty($name_lvl_table)) {
 					$id = $name_lvl_table->id;
-					$next_lvl = DB::table('levels_tests')->where('id', '=', $id+1 )->get()->first();
+					if(self::select_theme()) {
+						$next_lvl = DB::table( 'levels_tests_fiz' )->where( 'id', '=', $id + 1 )->get()->first();
+					} else {
+						$next_lvl = DB::table( 'levels_tests' )->where( 'id', '=', $id + 1 )->get()->first();
+					}
 					if(self::select_theme()){
 						DB::table('users')->where('id', $user_id)->update(['level_test_fiz' => $next_lvl->level,  ]);
 					} else {
