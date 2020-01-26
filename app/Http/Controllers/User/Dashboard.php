@@ -224,7 +224,7 @@ class Dashboard extends Controller{
 			if(self::select_theme()) {
 				foreach ($get_test as $key => $val) {
 					$kod_otvet[] = $val['kod_otvet'];
-					if (($val['kod_otvet'] === array_values($response)[$key+2])) {
+					if (($val['kod_otvet'] === $values_array[$key+2])) {
 						$count_corr_answ++;
 						//echo $val['kod_otvet'];
 						//NEED REFACTOR//HACK #############
@@ -240,7 +240,7 @@ class Dashboard extends Controller{
 			} else {
 				foreach ($get_test as $key => $val) {
 					$kod_otvet[] = $val['kod_otvet'];
-					if (in_array($val['kod_otvet'], $response)) {
+					if (($val['kod_otvet'] === $values_array[$key+2])) {
 						$count_corr_answ++;
 						//echo $val['kod_otvet'];
 						
@@ -263,7 +263,9 @@ class Dashboard extends Controller{
 				
 			}
 			
+			print_r($invalid_test);
 			
+			print_r($values_array);
 
 			session(['last_result' => true, ]);
 
@@ -292,12 +294,12 @@ class Dashboard extends Controller{
 				}
 				
 				session(['success' => 'Поздравляем, Вы успешно сдали тест ответив правильно на '. $count_corr_answ .' из ' .  count($kod_otvet), 'last_result' => true, ]);
-				return redirect()->action('User\Dashboard@test');
+				//return redirect()->action('User\Dashboard@test');
 			} else {
 				
 				$output_danger = $count_corr_answ > 5 ? 'ов!' : 'а!';
 				session(['danger' => 'Вы не прошли тест, ответив правильно только на '. $count_corr_answ . " вопрос" . $output_danger, ]);
-				return redirect()->action('User\Dashboard@test');
+				//return redirect()->action('User\Dashboard@test');
 			}
 			
 			
