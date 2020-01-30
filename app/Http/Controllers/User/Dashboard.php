@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 
 define("ONE_HOUR", 3600);
+define("DELIMITER", "/:/");
 
 class Dashboard extends Controller{
 	
@@ -23,6 +24,7 @@ class Dashboard extends Controller{
 	protected $results = null;
 	
 	protected $level_test = null;
+	
 	
 	function __construct() {
 		//math set as default = false : isn't set default = true
@@ -259,7 +261,11 @@ class Dashboard extends Controller{
 			} else {
 				foreach ($get_test as $key => $val) {
 					$kod_otvet[] = $val['kod_otvet'];
-					if (($val['kod_otvet'] === $values_array[$key+2])) {
+					$get_variate_answers = array_map( 'trim', preg_split(DELIMITER, $val['kod_otvet'] ) ) ;
+					
+					//($val['kod_otvet'] === $values_array[$key+2])
+					
+					if ( in_array(trim($values_array[$key+2]), $get_variate_answers) ) {
 						$count_corr_answ++;
 						//echo $val['kod_otvet'];
 						
@@ -282,10 +288,7 @@ class Dashboard extends Controller{
 				
 			}
 			
-
 			session(['last_result' => true, ]);
-
-			
 			
 			// 0.8 is percent of correct right answers
 			if($count_corr_answ >= ceil(count($kod_otvet) * 0.8)) {
