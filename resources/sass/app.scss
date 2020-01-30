@@ -110,7 +110,15 @@ a.card:hover {
     margin-bottom: 5px;
   }
 }
-
+body {
+  counter-reset: z; /* Инициируем счетчик */
+}
+z {font-weight: bold;
+  color: midnightblue;}
+z:before {
+  counter-increment: z; /* Указываем идентификатор счетчика */
+  content: "Пример 2." counter(z) ". "; /* Выводим текст перед содержимым тега <h2> */
+}
 
 @media (max-width: 992px) {
   .task {

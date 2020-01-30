@@ -11491,7 +11491,9 @@ body.sidebar-toggled footer.sticky-footer {
 .sidebar-brand-icon {
 	font-size: 45px;
 	font-weight: 400;
-}.custom-input {
+}@charset "UTF-8";
+
+.custom-input {
   background-color: #f3f4f8;
   display: block;
   margin: 10px 0;
@@ -11691,6 +11693,23 @@ a.card:hover {
   font-weight: 800;
   font-size: 20px;
   margin-bottom: 5px;
+}
+
+body {
+  counter-reset: z;
+  /* Инициируем счетчик */
+}
+
+z {
+  font-weight: bold;
+  color: midnightblue;
+}
+
+z:before {
+  counter-increment: z;
+  /* Указываем идентификатор счетчика */
+  content: "\41F\440\438\43C\435\440   2." counter(z) ". ";
+  /* Выводим текст перед содержимым тега <h2> */
 }
 
 @media (max-width: 992px) {
