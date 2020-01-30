@@ -11683,6 +11683,16 @@ a.card:hover {
   color: #361c64;
 }
 
+.kniga-resheniy-section {
+  margin-bottom: 25px;
+}
+
+.kniga-resheniy-section .heading {
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
 @media (max-width: 992px) {
   .task .heading {
     overflow-x: auto;

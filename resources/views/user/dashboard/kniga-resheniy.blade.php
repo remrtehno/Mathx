@@ -67,14 +67,14 @@
                         <div class="col-lg-12 mb-4">
 
                             @foreach ($content as $val)
-                                <div id="section-1.{{ $val['id'] }}">
+                                <div id="section-1.{{ $val['id'] }}" class="kniga-resheniy-section">
                                     <div class="heading">
                                         {{ $val['name'] }}
                                     </div><!-- /.heading -->
                                     <div class="body">
                                         {{ $val['content'] }}
                                     </div><!-- /.body -->
-                                </div> <!-- /#section-1.1 -->
+                                </div> <!-- /#section-1.1 /.kniga-resheniy-section -->
                             @endforeach
                         </div>
 
