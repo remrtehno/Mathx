@@ -46,3 +46,6 @@ Route::post('end-test', 'User\Dashboard@end_test')->name('end-test');
 Route::get('switcher-theme', 'User\Dashboard@switcher_theme')->name('switcher-theme');
 
 Route::get('code-examples', 'User\CodeExamples@index')->name('code-examples');
+
+
+Route::get('kniga-resheniy', 'User\KnigaResheniy@index')->name('kniga-resheniy');

@@ -5,22 +5,22 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-        @include('user/dashboard/layouts/sidebar')
+    @include('user/dashboard/layouts/sidebar')
 
-        <!-- Content Wrapper -->
+    <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
             <!-- Main Content -->
             <div id="content">
 
-                @include('user/dashboard/layouts/topbar')
+            @include('user/dashboard/layouts/topbar')
 
-                <!-- Begin Page Content -->
+            <!-- Begin Page Content -->
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Тестирование</h1>
+                        <h1 class="h3 mb-0 text-gray-800"> Книга решений </h1>
                     </div>
 
 
@@ -61,58 +61,21 @@
                                     </button>
                                 </div> <!-- alert -->
                             </div> <!-- col-lg-12 -->
-                        @endif
+                    @endif
 
-                        @if(session()->get('last_result') && json_decode($results))
-                            {{ session()->forget('last_result') }}
-                            <div class="col-lg-12 mb-3">
-                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                                    <div class="tests-cotainer">
-                                        @foreach (json_decode($results) as $val)
-                                            <div class="task">
-                                                <div class="heading mb-3">
-                                                    <?= htmlspecialchars_decode($val->id); ?>.  <?= htmlspecialchars_decode($val->uslovie); ?>
-                                                </div> <!-- /.heading mb-3 -->
-                                                <input type="text" value="<?= $val->kod_otvet; ?>" disabled="disabled">
-                                            </div> <!-- task -->
-                                        @endforeach
-                                    </div><!-- /.tests-cotainer -->
-                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div> <!-- alert -->
-                            </div> <!-- col-lg-12 -->
-                        @endif
-
-                        <!-- Content Column -->
+                    <!-- Content Column -->
                         <div class="col-lg-12 mb-4">
-							<h5> Ваш уровень: <?php echo $level_test;?> </h5>
-                        </div>
-                        <div class="col-lg-3 mb-4">
 
-	                        <?php if($allow_tests) { ?>
-                                <a href="{{ route('load-tests', ['level_test' => $level_test, ]) }}" class="card bg-success text-white shadow">
-                                    <div class="card-body">
-                                        Начать тест
-                                    </div>
-                                </a>
-	                        <?php } ?>
-
-                            @if($continue_tests)
-                                <a href="{{ route('load-tests') }}" class="card bg-success text-white shadow">
-                                    <div class="card-body">
-                                        Продолжить тест
-                                    </div>
-                                </a>
-                            @endif
-
-                            @if(!$allow_tests && !$continue_tests)
-                                <a href="JavaScript:void(0);" class="card btn-disabled text-white shadow">
-                                    <div class="card-body">
-                                        Начать тест
-                                    </div>
-                                </a>
-                            @endif
+                            @foreach ($content as $val)
+                                <div id="section-1.{{ $val['id'] }}">
+                                    <div class="heading">
+                                        {{ $val['name'] }}
+                                    </div><!-- /.heading -->
+                                    <div class="body">
+                                        {{ $val['content'] }}
+                                    </div><!-- /.body -->
+                                </div> <!-- /#section-1.1 -->
+                            @endforeach
                         </div>
 
                     </div>

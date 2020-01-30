@@ -25,7 +25,7 @@
     </li>
 
     <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ route('kniga-resheniy') }}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Книга решений</span>
         </a>

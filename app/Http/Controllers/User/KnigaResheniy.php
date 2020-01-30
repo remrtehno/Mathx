@@ -6,19 +6,23 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 
 
-class CodeExamples extends Controller{
+class KnigaResheniy extends Controller{
 	
 	public function index() {
-
+		
 		$user_id = session()->get('login');
 		if($user_id) {
-			
 			$users = DB::table('users')->where('id', '=', $user_id )->get();
-			return view('user.dashboard.code-examples', ['users' => $users->first(), 'content' => '', ]);
+			
+			$flights = new \App\KnigaResheniy;
+			$flights->setTable('kniga_mat_1');
+			$content = $flights->get()->toArray();
+			
+			return view('user.dashboard.kniga-resheniy', ['users' => $users->first(), 'content' => $content, ]);
 		}
-
+		
 		return view('signup');
 	}
-
+	
 	
 }
