@@ -87,13 +87,7 @@
                         <!-- Content Column -->
                         <div class="col-lg-12 mb-4">
 							<h5> Ваш уровень:
-								<?php
-									if($users->level_test) {
-										echo $users->level_test;	
-									} else {
-										echo 'A1.1';
-									} 
-                                ?>
+								<?php echo $level_test;?>
                             </h5>
                         </div>
                         <div class="col-lg-3 mb-4">

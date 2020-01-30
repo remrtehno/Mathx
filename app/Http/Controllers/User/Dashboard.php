@@ -22,6 +22,8 @@ class Dashboard extends Controller{
 	
 	protected $results = null;
 	
+	protected $level_test = null;
+	
 	function __construct() {
 		//math set as default = false : isn't set default = true
 		session(['select' => false, ]);
