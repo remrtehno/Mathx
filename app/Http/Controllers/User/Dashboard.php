@@ -25,10 +25,21 @@ class Dashboard extends Controller{
 	
 	protected $level_test = null;
 	
+	protected $timenow = null;
+	
 	
 	function __construct() {
 		//math set as default = false : isn't set default = true
 		session(['select' => false, ]);
+		$this->timenow = strtotime(date('Y-m-d H:i'));
+		
+		
+		if(self::select_theme()) {
+			$this->fiz = '_fiz';
+		} else {
+			$this->fiz = '';
+		}
+		
 	}
 	
 	
@@ -229,6 +240,24 @@ class Dashboard extends Controller{
 			$get_test = $flights->get()->toArray();
 			
 			
+			if(self::select_theme()) {
+				$this->fiz = '_fiz';
+			} else {
+				$this->fiz = '';
+			}
+			
+			$timenow = strtotime(date('Y-m-d H:i'));
+			
+			$start_test = DB::table('users')->select('start_test'.$this->fiz)->where('id', '=', $user_id )->pluck('start_test'.$this->fiz)->toArray()[0];
+			$end_test = DB::table('users')->select('end_test'.$this->fiz)->where('id', '=', $user_id )->pluck('end_test'.$this->fiz)->toArray()[0];
+
+			if( (($timenow - $start_test) > ONE_HOUR) && ($start_test  > $end_test) ) {
+				DB::table('users')->where('id', $user_id)->update(['end_test'.$this->fiz => $start_test+ONE_HOUR, ]);
+				return redirect()->action('User\Dashboard@test');
+			} elseif($start_test <= $end_test) {
+				return redirect()->action('User\Dashboard@test');
+			}
+			
 			$values_array = [];
 			foreach ( $response as $item ) {
 				$values_array[] = isset($item) ? $item : 'null';
@@ -256,7 +285,8 @@ class Dashboard extends Controller{
 					//!!!! NEED REFACTOR
 				}
 				
-				DB::table('users')->where('id', $user_id)->update(['end_test_fiz' => strtotime(date('Y-m-d H:i')), 'last_result_fiz' => [$invalid_test[array_rand($invalid_test)]],  ]);
+						DB::table('users')->where('id', $user_id)->update(['end_test_fiz' => strtotime(date('Y-m-d H:i')), 'last_result_fiz' => [$invalid_test[array_rand($invalid_test)]],  ]);
+				
 				
 			} else {
 				foreach ($get_test as $key => $val) {
@@ -278,6 +308,7 @@ class Dashboard extends Controller{
 					}
 					//!!!! NEED REFACTOR
 				}
+				
 				if(self::select_theme()) {
 					DB::table('users')->where('id', $user_id)->update(['end_test_fiz' => strtotime(date('Y-m-d H:i')), 'last_result_fiz' => $invalid_test,  ]);
 					
