@@ -11,6 +11,7 @@ class KnigaResheniy extends Controller{
 	
 	protected $allTablesContent = [];
 	protected $nav_book = [];
+	protected $output = [];
 	
 	public function index() {
 		
@@ -25,14 +26,18 @@ class KnigaResheniy extends Controller{
 			$mat_or_fiz = session('select') == true ? "fiz" : "mat";
 			
 			collect(DB::connection('mysql3')->select('SHOW TABLES WHERE Tables_in_' .env("DB_DATABASE_3", 'null'). ' LIKE "%'.$mat_or_fiz.'%"'))->map(function ($val) {
+				$inc = [];
 				foreach ($val as $key => $tbl) {
 					$flights = new \App\KnigaResheniy;
 					$flights->setTable('map');
 					$content = $flights->where('name_db', $tbl)->select('title')->get('id')->toArray();
 					
-					$this->nav_book[$key]['name'] = $content[0]['title'];
-					$this->nav_book[$key]['link'] = $tbl;
+					$inc['name'] = $content[0]['title'];
+					$inc['link'] = $tbl;
+
 				}
+				
+				$this->nav_book[] = $inc;
 			});
 			
 			
