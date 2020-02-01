@@ -120,6 +120,13 @@ z:before {
   content: "Пример 2." counter(z) ". "; /* Выводим текст перед содержимым тега <h2> */
 }
 
+.scrollspy-example {
+  //position: relative;
+  //height: 50vh;
+  //margin-top: .5rem;
+  //overflow: auto;
+}
+
 @media (max-width: 992px) {
   .task {
     .heading {

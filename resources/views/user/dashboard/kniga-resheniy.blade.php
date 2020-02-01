@@ -66,16 +66,21 @@
                     <!-- Content Column -->
                         <div class="col-lg-12 mb-4">
 
-                            @foreach ($content as $val)
-                                <div id="section-1.{{ $val['id'] }}" class="kniga-resheniy-section">
-                                    <div class="heading">
-                                        <?= $val['name'] ?>
-                                    </div><!-- /.heading -->
-                                    <div class="body">
-                                        <?= $val['content'] ?>
-                                    </div><!-- /.body -->
-                                </div> <!-- /#section-1.1 /.kniga-resheniy-section -->
-                            @endforeach
+                            <div id="list-example" class="list-group">
+                                @foreach ($content as $key => $val)
+                                    <a class="nav-link" href="#section-1.{{ $key }}">{{$val['name']}}</a>
+                                @endforeach
+                            </div>
+
+
+                            <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example sections-container">
+                                @foreach ($content as $key => $val)
+                                    <div id="section-1.{{ $key }}" class="kniga-resheniy-section">
+                                        <div class="heading"> <?= $val['name'] ?> </div><!-- /.heading -->
+                                        <div class="body"> <?= $val['content'] ?> </div><!-- /.body -->
+                                    </div> <!-- /#section-1.1 /.kniga-resheniy-section -->
+                                @endforeach
+                            </div> <!-- /.sections-container -->
                         </div>
 
                     </div>
