@@ -34,6 +34,7 @@ class KnigaResheniy extends Controller{
 					
 					$inc['name'] = $content[0]['title'];
 					$inc['link'] = $tbl;
+					$inc['id'] = null;
 
 				}
 				
@@ -53,11 +54,20 @@ class KnigaResheniy extends Controller{
 		if($user_id) {
 			$users = DB::table('users')->where('id', '=', $user_id )->get();
 			
+			$content = [];
+			
 			$flights = new \App\KnigaResheniy;
 			$flights->setTable($request->input('name_db'));
-			$content = $flights->get()->toArray();
-
-			$this->allTablesContent = $content;
+			if($request->input('id')) {
+				$this->allTablesContent = $flights->where('id', '=', $request->input('id'))->get(['id', 'name', 'content'])->toArray();
+			} else {
+				$content = $flights->get( [ 'id', 'name' ] )->toArray();
+			}
+			
+			foreach ($content as $key => $val) {
+				$this->nav_book[$key] = $val;
+				$this->nav_book[$key]['link'] = $request->input('name_db');
+			}
 			
 			return view('user.dashboard.kniga-resheniy', ['users' => $users->first(), 'nav_book' => $this->nav_book, 'content' => $this->allTablesContent, ]);
 		}
