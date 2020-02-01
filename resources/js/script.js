@@ -92,7 +92,9 @@ $( document ).ready(function() {
     }
 
 
-
+    $('.go-back').click(function () {
+        window.history.back();
+    })
 
 
 

@@ -21,8 +21,9 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800"> Книга решений </h1>
+                        <button class="btn btn-primary go-back"> Назад </button>
                     </div>
-                    <h4>{{ isset($title) ? $title : '' }}</h4>
+                    <h4 class="mb-4">{{ isset($title) ? $title : '' }}</h4>
 
 
                     <!-- Content Row -->

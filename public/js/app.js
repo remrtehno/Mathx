@@ -46476,7 +46476,11 @@ $(document).ready(function () {
         inlineMath: [["$", "$"], ["\\(", "\\)"]]
       }
     });
-  } //=======
+  }
+
+  $('.go-back').click(function () {
+    window.history.back();
+  }); //=======
   // $('li.nav-toggle > button').click(function(e){
   //     //Set cookie
   //     if($.cookie('minibar')==null||$.cookie('minibar')==0) $.cookie('minibar',1);
@@ -46557,7 +46561,6 @@ $(document).ready(function () {
   //     $('.site-holder.mini-sidebar li.submenu').removeClass('active');
   //
   // });
-
 });
 
 /***/ }),
