@@ -55,6 +55,10 @@ class KnigaResheniy extends Controller{
 			$users = DB::table('users')->where('id', '=', $user_id )->get();
 			
 			$content = [];
+			$flights = new \App\KnigaResheniy;
+			$flights->setTable('map');
+			$titlePage = $flights->where('name_db', $request->input('name_db'))->get('title')->toArray()[0]['title'];
+			
 			
 			$flights = new \App\KnigaResheniy;
 			$flights->setTable($request->input('name_db'));
@@ -64,12 +68,13 @@ class KnigaResheniy extends Controller{
 				$content = $flights->get( [ 'id', 'name' ] )->toArray();
 			}
 			
+			
 			foreach ($content as $key => $val) {
 				$this->nav_book[$key] = $val;
 				$this->nav_book[$key]['link'] = $request->input('name_db');
 			}
 			
-			return view('user.dashboard.kniga-resheniy', ['users' => $users->first(), 'nav_book' => $this->nav_book, 'content' => $this->allTablesContent, ]);
+			return view('user.dashboard.kniga-resheniy', ['users' => $users->first(), 'nav_book' => $this->nav_book, 'content' => $this->allTablesContent, 'title' => $titlePage, ]);
 		}
 		
 		return view('signup');
