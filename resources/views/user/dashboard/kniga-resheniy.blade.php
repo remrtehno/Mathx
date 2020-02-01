@@ -67,8 +67,12 @@
                         <div class="col-lg-12 mb-4">
 
                             <div id="list-example" class="list-group">
-                                @foreach ($content as $key => $val)
-                                    <a class="nav-link" href="#section-1.{{ $key }}">{{$val['name']}}</a>
+                                @foreach ($nav_book as $key => $val)
+                                    @if(isset($val['link']))
+                                        <a class="nav-link" href="{{ route('sub-chapter', ['name_db' => $val['link'] ]) }}">{{$val['name']}}</a>
+                                    @else
+                                        <a class="nav-link" href="#section-1.{{ $key }}">{{$val['name']}}</a>
+                                    @endif
                                 @endforeach
                             </div>
 

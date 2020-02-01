@@ -49,3 +49,5 @@ Route::get('code-examples', 'User\CodeExamples@index')->name('code-examples');
 
 
 Route::get('kniga-resheniy', 'User\KnigaResheniy@index')->name('kniga-resheniy');
+
+Route::get('sub-chapter', 'User\KnigaResheniy@getChapter')->name('sub-chapter');
