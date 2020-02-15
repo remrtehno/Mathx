@@ -19,10 +19,6 @@ class KnigaResheniy extends Controller{
 		if($user_id) {
 			$users = DB::table('users')->where('id', '=', $user_id )->get();
 			
-			$flights = new \App\KnigaResheniy;
-			$flights->setTable('kniga_mat_1');
-			$content = $flights->get()->toArray();
-			
 			$mat_or_fiz = session('select') == true ? "fiz" : "mat";
 			
 			collect(DB::connection('mysql3')->select('SHOW TABLES WHERE Tables_in_' .env("DB_DATABASE_3", 'null'). ' LIKE "%'.$mat_or_fiz.'%"'))->map(function ($val) {
@@ -32,7 +28,7 @@ class KnigaResheniy extends Controller{
 					$flights->setTable('map');
 					$content = $flights->where('name_db', $tbl)->select('title')->get('id')->toArray();
 					
-					$inc['name'] = $content[0]['title'];
+					$inc['name'] = isset($content[0]['title']) ? $content[0]['title'] :'';
 					$inc['link'] = $tbl;
 					$inc['id'] = null;
 
