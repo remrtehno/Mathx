@@ -190,6 +190,6 @@ $( document ).ready(function() {
 
 (function() {
     setTimeout(function(){
-        $('.take-tests').removeAttr('disabled');
+        $('.take-tests').removeAttr('disabled').removeClass('btn-dark');
     }, 15000);
 })();

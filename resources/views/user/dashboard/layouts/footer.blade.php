@@ -24,9 +24,9 @@
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-<script src="/js/manifest.js"></script>
-<script src="/js/vendor.js"></script>
-<script src="/js/app.js"></script>
+<script src="/js/manifest.js?ver=<?=time();?>"></script>
+<script src="/js/vendor.js?ver=<?=time();?>"></script>
+<script src="/js/app.js?ver=<?=time();?>"></script>
 
 </body>
 </html>
