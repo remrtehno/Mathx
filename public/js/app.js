@@ -46563,6 +46563,12 @@ $(document).ready(function () {
   // });
 });
 
+(function () {
+  setTimeout(function () {
+    $('.take-tests').removeAttr('disabled');
+  }, 15000);
+})();
+
 /***/ }),
 
 /***/ "./resources/sass/app.scss":

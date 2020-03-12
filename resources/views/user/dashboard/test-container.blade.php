@@ -88,7 +88,7 @@
                                     @endforeach
                                 </div> <!-- /.tests-container -->
 
-                                <button type="submit" class="btn-success btn">Сдать тесты</button>
+                                <button type="submit" class="btn-success btn take-tests" disabled>Сдать тесты</button>
                             </form>
                         </div> <!-- /.col-lg-12 -->
 
