@@ -285,7 +285,9 @@ class Dashboard extends Controller{
 					//!!!! NEED REFACTOR
 				}
 				
-						DB::table('users')->where('id', $user_id)->update(['end_test_fiz' => strtotime(date('Y-m-d H:i')), 'last_result_fiz' => [$invalid_test[array_rand($invalid_test)]],  ]);
+				//picks one the key for a random entry
+				//DB::table('users')->where('id', $user_id)->update(['end_test_fiz' => strtotime(date('Y-m-d H:i')), 'last_result_fiz' => [$invalid_test[array_rand($invalid_test)]],  ]);
+				DB::table('users')->where('id', $user_id)->update(['end_test_fiz' => strtotime(date('Y-m-d H:i')), 'last_result_fiz' => $invalid_test,  ]);
 				
 				
 			} else {
@@ -321,8 +323,8 @@ class Dashboard extends Controller{
 			
 			session(['last_result' => true, ]);
 			
-			// 0.8 is percent of correct right answers
-			if($count_corr_answ >= ceil(count($kod_otvet) * 0.8)) {
+			// 0.9 is percent of correct right answers
+			if($count_corr_answ >= ceil(count($kod_otvet) * 0.9)) {
 				if(self::select_theme()) {
 					$name_lvl_table = DB::table( 'levels_tests_fiz' )->where( 'name_db', '=', $name_db )->get()->first();
 				} else {
