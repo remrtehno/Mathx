@@ -13,16 +13,21 @@ class KnigaResheniy extends Controller{
 	protected $nav_book = [];
 	protected $output = [];
 	
-	public function index() {
+	public function index(Request $request) {
 		
 		$user_id = session()->get('login');
 		if($user_id) {
 			$users = DB::table('users')->where('id', '=', $user_id )->get();
 			
-			$mat_or_fiz = session('select') == true ? "fiz" : "mat";
+			$table = session('select') == true ? "kniga_fiz" : "kniga_mat";
 			
-			collect(DB::connection('mysql3')->select('SHOW TABLES WHERE Tables_in_' .env("DB_DATABASE_3", 'null'). ' LIKE "%'.$mat_or_fiz.'%"'))->map(function ($val) {
+			if($request->input('table')) {
+				$table = $request->input('table');
+			}
+			
+			collect(DB::connection('mysql3')->select('SHOW TABLES WHERE Tables_in_' .env("DB_DATABASE_3", 'null'). ' LIKE "%'.$table.'%"'))->map(function ($val) {
 				$inc = [];
+				
 				foreach ($val as $key => $tbl) {
 					$flights = new \App\KnigaResheniy;
 					$flights->setTable('map');

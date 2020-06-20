@@ -32,6 +32,13 @@
     </li>
 
     <li class="nav-item">
+        <a class="nav-link" href="{{ route('kniga-resheniy', ['table' => 'teoriya_mat', ]) }}">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Теория</span>
+        </a>
+    </li>
+
+    <li class="nav-item">
         <a class="nav-link" href="{{ route('code-examples') }}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Примеры кодов</span>

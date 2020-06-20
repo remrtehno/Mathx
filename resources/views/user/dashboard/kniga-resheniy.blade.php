@@ -19,8 +19,8 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800"> Книга решений </h1>
+                    <div class="mb-4">
+                        <h1 class="h3 mb-2 text-gray-800"> Книга решений </h1>
                         <button class="btn btn-primary go-back"> Назад </button>
                     </div>
                     <h4 class="mb-4">{{ isset($title) ? $title : '' }}</h4>
@@ -78,7 +78,6 @@
                                 @endforeach
                             </div>
 
-
                             <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example sections-container">
                                 @foreach ($content as $key => $val)
                                     <div id="section-1.{{ $key }}" class="kniga-resheniy-section">
@@ -87,6 +86,7 @@
                                     </div> <!-- /#section-1.1 /.kniga-resheniy-section -->
                                 @endforeach
                             </div> <!-- /.sections-container -->
+
                         </div>
 
                     </div>
