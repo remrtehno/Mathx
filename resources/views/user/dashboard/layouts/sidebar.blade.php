@@ -32,7 +32,7 @@
     </li>
 
     <li class="nav-item">
-        <a class="nav-link" href="{{ route('kniga-resheniy', ['table' => 'teoriya_mat', ]) }}">
+        <a class="nav-link" href="{{ route('kniga-resheniy', ['table' => 'teoriya_mat', 'subchapter' => 'true',]) }}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Теория</span>
         </a>

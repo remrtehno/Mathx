@@ -12,6 +12,7 @@ class KnigaResheniy extends Controller{
 	protected $allTablesContent = [];
 	protected $nav_book = [];
 	protected $output = [];
+	protected $subChapter = 0;
 	
 	public function index(Request $request) {
 		
@@ -27,8 +28,8 @@ class KnigaResheniy extends Controller{
 			
 			collect(DB::connection('mysql3')->select('SHOW TABLES WHERE Tables_in_' .env("DB_DATABASE_3", 'null'). ' LIKE "%'.$table.'%"'))->map(function ($val) {
 				$inc = [];
-				
 				foreach ($val as $key => $tbl) {
+					$this->subChapter = $tbl;
 					$flights = new \App\KnigaResheniy;
 					$flights->setTable('map');
 					$content = $flights->where('name_db', $tbl)->select('title')->get('id')->toArray();
@@ -41,6 +42,10 @@ class KnigaResheniy extends Controller{
 				
 				$this->nav_book[] = $inc;
 			});
+			
+			if($request->input('subchapter')) {
+				return redirect()->route('sub-chapter', ['name_db' => $this->subChapter,] );
+			}
 			
 			
 			return view('user.dashboard.kniga-resheniy', ['users' => $users->first(), 'nav_book' => $this->nav_book, 'content' => [], ]);
