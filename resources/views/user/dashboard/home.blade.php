@@ -24,24 +24,18 @@
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Сгенерировать отчет успеваемости
                         </a>
                     </div>
-
-
                     <!-- Content Row -->
                     <div class="row">
-
                         <!-- Content Column -->
                         <div class="col-lg-6 mb-4">
-
-
-
                             <!-- Color System -->
                             <div class="row">
                                 <div class="col-lg-6 mb-4">
-                                    <div class="card bg-primary text-white shadow">
+                                    <a href="{{ route('get-start') }}" class="card bg-primary text-white shadow">
                                         <div class="card-body">
                                             Начать работу
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                                 <div class="col-lg-6 mb-4">
                                     <a href="{{ route('dashboard-tests') }}" class="card bg-success text-white shadow">
@@ -57,19 +51,11 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
-
                         </div>
-
                     </div>
-
                 </div><!-- /.container-fluid -->
-
             </div><!-- End of Main Content -->
-
         </div> <!-- End of Content Wrapper -->
-
     </div><!-- End of Page Wrapper -->
-
 @endsection

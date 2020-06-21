@@ -131,9 +131,9 @@
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">
                                     <?php
 
-	                                if($users->first_name) {
+	                                if(isset($users->first_name)) {
 		                                echo $users->first_name . ' '  . $users->last_name;
-	                                } elseif ($users->phone_number) {
+	                                } elseif (isset($users->phone_number)) {
 		                                echo $users->phone_number;
 	                                } ?>
                                 </span>

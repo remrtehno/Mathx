@@ -6,6 +6,7 @@ use App\User;
 use App\Http\Controllers\Controller;
 use App\users;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Config;
 
 use Illuminate\Http\Request;
 
@@ -23,8 +24,9 @@ class SignUp extends Controller
 			$users->password = $user_new['password'];
 			$users->last_name = $user_new['last_name'];
 			$users->first_name = $user_new['first_name'];
-			$users->level_test = 'A1.1';
-			$users->level_test_fiz = 'A1.1';
+			$users->level_test = Config::get('constants.options.LEVEL_TEST');
+			$users->level_test_fiz = Config::get('constants.options.LEVEL_FIZ');
+			$users->level = Config::get('constants.options.LEVEL');
 
 
 

@@ -1,5 +1,3 @@
-
-
 window.axios = require('axios');
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
@@ -185,4 +183,10 @@ $( document ).ready(function() {
     //
     // });
 
+
+    /// get start
+
+    require("./get-start");
+
 });
+

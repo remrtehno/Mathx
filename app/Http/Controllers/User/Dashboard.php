@@ -3,9 +3,12 @@
 
 namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Config;
 use function foo\func;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
+
+
 
 define("ONE_HOUR", 3600);
 define("DELIMITER", "/:/");
@@ -16,17 +19,13 @@ class Dashboard extends Controller{
 	protected $continue_tests = null;
 	protected $action = null;
 	protected $time_left = null;
-	
 	protected $fiz = null;
 	protected $math = true;
 	protected $select = null;
-	
 	protected $results = null;
-	
 	protected $level_test = null;
-	
 	protected $timenow = null;
-	
+	protected $table = null;
 	
 	function __construct() {
 		//math set as default = false : isn't set default = true
@@ -42,7 +41,6 @@ class Dashboard extends Controller{
 		
 	}
 	
-	
 	// if return false is math
 	public function select_theme() {
 		if(session('select')) {
@@ -52,9 +50,6 @@ class Dashboard extends Controller{
 		$this->math = true;
 		return false;
 	}
-	
-	
-	
 
 	public function store() {
 
@@ -360,8 +355,6 @@ class Dashboard extends Controller{
 		}
 	}
 	
-	
-	
 	public function switcher_theme(Request $request) {
 		
 		$user_id = session()->get('login');
@@ -380,6 +373,42 @@ class Dashboard extends Controller{
 			
 			return redirect()->action('User\Dashboard@store');
 		}
+		return view('signup');
+	}
+	
+	public function get_start() {
+		$user_id = session()->get('login');
+		if($user_id) {
+			
+			$users = DB::table('users')->where('id', '=', $user_id )->first();
+			
+			//get level and set bd
+			if(isset($users->level)) {
+				$this->table = $users->level;
+			} else {
+				$this->table = Config::get('constants.options.LEVEL');
+			}
+			
+			$sbornik = new \App\SbornikMat;
+			$sbornik->setTable('map');
+			$get_test = $sbornik->where('level', '=', $this->table)->first();
+			
+			$sbornik->setTable($get_test->table_name);
+			$get_test = $sbornik->get()->toArray();
+
+			
+			
+			return view('user.dashboard.get-start', [
+				'fiz' => false,
+				'time_left' => 0,
+				'id_test' => "1",
+				'users' => $users,
+				'data' => $get_test,
+				'jsonData' => [],
+				'row' => [],
+				]);
+		}
+		
 		return view('signup');
 	}
 	

@@ -32,7 +32,7 @@
 							<h5> Ваш уровень:
 								<?php
 
-									if($users->level_test) {
+									if(isset($users->level_test)) {
 										echo $users->level_test;	
 									} else {
 										echo 'A1.1';
