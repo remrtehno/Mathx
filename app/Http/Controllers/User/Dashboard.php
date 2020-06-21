@@ -392,19 +392,21 @@ class Dashboard extends Controller{
 			$sbornik = new \App\SbornikMat;
 			$sbornik->setTable('map');
 			$get_test = $sbornik->where('level', '=', $this->table)->first();
+			$table_name = $get_test->table_name;
 			
-			$sbornik->setTable($get_test->table_name);
+			$sbornik->setTable($table_name);
 			$get_test = $sbornik->get()->toArray();
+			$get_test_json = $sbornik->get()->toJson(JSON_PRETTY_PRINT);
 
 			
 			
 			return view('user.dashboard.get-start', [
 				'fiz' => false,
 				'time_left' => 0,
-				'id_test' => "1",
+				'id_test' => $table_name,
 				'users' => $users,
 				'data' => $get_test,
-				'jsonData' => [],
+				'jsonData' => $get_test_json,
 				'row' => [],
 				]);
 		}
