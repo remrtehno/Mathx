@@ -457,7 +457,7 @@ class Dashboard extends Controller{
 		if($user_id) {
 			$users = DB::table('users')->where('id', '=', $user_id )->first();
 			
-			
+			$data = [];
 			$statistics = DB::table('user_meta')->where(['user_id' => $user_id, 'meta_key' => 'user_statistics' ])->get()->first();
 			if(isset($statistics->meta_value)) {
 				$data = unserialize($statistics->meta_value);
@@ -465,7 +465,7 @@ class Dashboard extends Controller{
 			
 			return view('user.dashboard.user-statistics', [
 				'users' => $users,
-				'user_statistics' => $data,
+				'user_statistics' => (array)$data,
 				]);
 			
 			

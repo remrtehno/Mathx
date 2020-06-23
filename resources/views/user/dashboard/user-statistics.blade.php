@@ -24,7 +24,7 @@
                                 @foreach ($user_statistics as $key => $statistic)
                                     <tr>
                                         <td>{{$key}}</td>
-                                        <td>{{ count($statistic['id']) }}</td>
+                                        <td>{{ count((array)$statistic['id']) }}</td>
                                     </tr>
                                 @endforeach
 
