@@ -45200,6 +45200,8 @@ function proverka(e, val) {
     });
   };
 
+  var date = $('[name="date"]').val();
+
   if (checkAnswer(val, answer)) {
     // alert ('Верно!');
     $(taskContainer).find('.otvet-kod').css('border', '1px solid green');
@@ -45228,6 +45230,17 @@ function proverka(e, val) {
                   }, 600, function () {
                     $(this).remove();
                     checkTasksExist(this, '.tests-container');
+                  }); //for statistics
+
+                  var statics = {
+                    key: 'user_statistics',
+                    value: {}
+                  };
+                  statics.value[date] = {
+                    id: idTask
+                  };
+                  axios.post(route, statics).then(function () {})["catch"](function (error) {
+                    console.log(error);
                   });
                 })["catch"](function (error) {
                   console.log(error);

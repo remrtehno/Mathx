@@ -29,6 +29,7 @@
                         <div class="col-lg-12 mb-5">
                                 <input type="hidden" value="{{ $id_test }}" name="name_db">
                                 <input type="hidden" value="{{ route('save-meta') }}" name="save_meta_route">
+                                <input type="hidden" name="date" value={{date('Y-m-d', strtotime("+5 hours") )}}>
                                 <input id="tasks" type="hidden">
                                 <div class="tests-container">
                                     @foreach ($data as $val)

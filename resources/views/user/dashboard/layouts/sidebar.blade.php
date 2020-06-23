@@ -47,7 +47,7 @@
 
 
     <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ route('user-statistics') }}">
             <i class="fas fa-fw fa-chart-area"></i>
             <span>Статистика</span>
         </a>

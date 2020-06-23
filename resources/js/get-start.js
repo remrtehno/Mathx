@@ -6,6 +6,7 @@ function proverka (e, val) {
     let taskContainer = e.target.closest('.task');
     let answer = e.target.closest('div').querySelector('.otvet-kod').value;
     let checkAnswer = (val,compVal) => String(val).replace(/\s/g, '').split(':').find(x=>x===compVal.replace(/\s/g, ''));
+    let date = $('[name="date"]').val();
 
     if (checkAnswer(val,answer)) {
        // alert ('Верно!');
@@ -13,15 +14,28 @@ function proverka (e, val) {
         let route = $("[name=\"save_meta_route\"]").val();
         let bdName = $("[name=\"name_db\"]").val();
         let idTask = $(e.target).data('id');
+
         let request = {key: {}, value:{}};
         request.key = 'user_tasks';
         request.value[bdName] = {id: idTask};
+
         (async (taskContainer) => {
             await axios.post(route, request).then( () => {
                 $(taskContainer).animate({left: '250px', opacity: 0,}, 600, function() {
                     $(this).remove();
                     checkTasksExist(this, '.tests-container');
                 });
+
+                //for statistics
+                let statics = {key: 'user_statistics', value: {}};
+                statics.value[date] = {
+                    id: idTask,
+                };
+                axios.post(route, statics).then( () => {
+                }).catch( ( error ) => {
+                    console.log( error );
+                });
+
             }).catch( ( error ) => {
                 console.log( error );
             })

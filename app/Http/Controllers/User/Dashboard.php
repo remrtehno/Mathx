@@ -433,6 +433,7 @@ class Dashboard extends Controller{
 		$meta = $post->input('value');
 		$key = $post->input('key');
 		
+		
 		if($user_id && $meta && $key) {
 			$getArray = DB::table('user_meta')->where(['user_id' => $user_id, 'meta_key' => $key ])->get()->first();
 			
@@ -443,11 +444,31 @@ class Dashboard extends Controller{
 				$result = $meta;
 			}
 			
-			
 			DB::table('user_meta')->updateOrInsert(
 				['user_id' => $user_id, 'meta_key' => $key ],
 				['meta_value' => serialize($result) ]
 			);
+		}
+	}
+	
+	
+	public function user_statistics() {
+		$user_id = session()->get('login');
+		if($user_id) {
+			$users = DB::table('users')->where('id', '=', $user_id )->first();
+			
+			
+			$statistics = DB::table('user_meta')->where(['user_id' => $user_id, 'meta_key' => 'user_statistics' ])->get()->first();
+			if(isset($statistics->meta_value)) {
+				$data = unserialize($statistics->meta_value);
+			}
+			
+			return view('user.dashboard.user-statistics', [
+				'users' => $users,
+				'user_statistics' => $data,
+				]);
+			
+			
 		}
 	}
 	
