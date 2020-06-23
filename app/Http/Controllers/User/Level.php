@@ -4,10 +4,7 @@
 namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Config;
-use function foo\func;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Http\Request;
-
 
 
 class Level extends Controller {
