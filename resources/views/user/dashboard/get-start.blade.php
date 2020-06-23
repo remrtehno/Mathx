@@ -28,12 +28,13 @@
                         <!-- /.col-12 -->
                         <div class="col-lg-12 mb-5">
                                 <input type="hidden" value="{{ $id_test }}" name="name_db">
-                                <?php $counter = 1; ?>
+                                <input type="hidden" value="{{ route('save-meta') }}" name="save_meta_route">
+
                                 <div class="tests-container">
                                     @foreach ($data as $val)
                                         <div class="task">
                                             <div class="heading mb-3">
-                                                <span class="counter"> {{$counter++}}. </span>
+                                                <span class="counter"> {{$val['id']}}. </span>
 												<?= $val['uslovie'] ?>
                                             </div> <!-- /.heading -->
 
@@ -90,7 +91,7 @@
                                                     <div class="d-flex">
                                                         {{--onkeyup="this.value = this.value.toUpperCase();"--}}
                                                         <input type="text" name="task-{{  $val['id'] }}" class="otvet-kod">
-                                                        <a href="#" class="btn btn-primary rounded-0 check-answer" data-answer={{$val['otvet_kod']}}>Проверить</a>
+                                                        <a href="#" class="btn btn-primary rounded-0 check-answer" data-id="{{  $val['id'] }}" data-answer={{$val['otvet_kod']}}>Проверить</a>
                                                     </div>
                                                 </div> <!-- /.task-body -->
                                             @endif

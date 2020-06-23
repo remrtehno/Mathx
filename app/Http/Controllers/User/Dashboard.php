@@ -26,6 +26,7 @@ class Dashboard extends Controller{
 	protected $level_test = null;
 	protected $timenow = null;
 	protected $table = null;
+	protected $user_tasks = null;
 	
 	function __construct() {
 		//math set as default = false : isn't set default = true
@@ -397,7 +398,19 @@ class Dashboard extends Controller{
 			$sbornik->setTable($table_name);
 			$get_test = $sbornik->get()->toArray();
 			$get_test_json = $sbornik->get()->toJson(JSON_PRETTY_PRINT);
-
+			
+			$this->user_tasks = [];
+			$getArray = DB::table('user_meta')->where(['user_id' => $user_id, 'meta_key' => 'user_tasks' ])->get()->first();
+			if(isset($getArray->meta_value)) {
+				$this->user_tasks = unserialize($getArray->meta_value);
+				if(isset($this->user_tasks[$table_name])) {
+					$this->user_tasks = $this->user_tasks[$table_name]['id'];
+				}
+				
+				$get_test = array_filter($get_test, function($var) {
+					return !in_array($var['id'], $this->user_tasks);
+				});
+			}
 			
 			
 			return view('user.dashboard.get-start', [
@@ -416,13 +429,26 @@ class Dashboard extends Controller{
 	
 	
 	//META SETTINGS
-	public function save_meta() {
+	public function save_meta(Request $post) {
 		$user_id = session()->get('login');
-		if($user_id) {
-			if ( $_POST['json'] ) {
-				$directions = $_POST['json'];
-				//mysql_real_escape_string($directions);
+		$meta = $post->input('value');
+		$key = $post->input('key');
+		
+		if($user_id && $meta && $key) {
+			$getArray = DB::table('user_meta')->where(['user_id' => $user_id, 'meta_key' => $key ])->get()->first();
+			
+			if(isset($getArray->meta_value)) {
+				$meta_value_old = unserialize($getArray->meta_value);
+				$result = array_merge_recursive($meta_value_old, $meta);
+			} else {
+				$result = $meta;
 			}
+			
+			
+			DB::table('user_meta')->updateOrInsert(
+				['user_id' => $user_id, 'meta_key' => $key ],
+				['meta_value' => serialize($result) ]
+			);
 		}
 	}
 	

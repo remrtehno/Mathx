@@ -1,13 +1,35 @@
+const axios = require('axios');
+
 var id_inte;
 function proverka (e, val) {
-    console.log(e, val, Number(val))
 
+    let taskContainer = e.target.closest('.task');
     let answer = e.target.closest('div').querySelector('.otvet-kod').value;
-
     let checkAnswer = (val,compVal) => String(val).replace(/\s/g, '').split(':').find(x=>x===compVal.replace(/\s/g, ''));
 
-    if (checkAnswer(val,answer)) alert ('Верно!');
-    else alert ('Неверно!')
+    if (checkAnswer(val,answer)) {
+        alert ('Верно!');
+
+        let route = $("[name=\"save_meta_route\"]").val();
+        let bdName = $("[name=\"name_db\"]").val();
+        let idTask = $(e.target).data('id');
+        let request = {key: {}, value:{}};
+        request.key = 'user_tasks';
+        request.value[bdName] = {id: idTask};
+
+        (async (taskContainer) => {
+            await axios.post(route, request).then( response => {
+                $(taskContainer).animate({left: '250px', opacity: 0,}, 600, function() {
+                    $(this).hide();
+                });
+            }).catch( ( error ) => {
+                console.log( error );
+            })
+        })(taskContainer);
+
+    } else {
+        alert ('Неверно!');
+    }
 };
 
 function tips(event, id) {
@@ -57,3 +79,6 @@ $('.steps').click(function (event) {
     let id = $(this).data('id');
     tips(event,id);
 });
+
+
+
