@@ -406,9 +406,8 @@ class Dashboard extends Controller{
 				if(isset($this->user_tasks[$table_name])) {
 					$this->user_tasks = $this->user_tasks[$table_name]['id'];
 				}
-				
 				$get_test = array_filter($get_test, function($var) {
-					return !in_array($var['id'], $this->user_tasks);
+					return !in_array($var['id'], (array)$this->user_tasks);
 				});
 			}
 			

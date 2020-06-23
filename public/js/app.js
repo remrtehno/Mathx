@@ -45201,7 +45201,8 @@ function proverka(e, val) {
   };
 
   if (checkAnswer(val, answer)) {
-    alert('Верно!');
+    // alert ('Верно!');
+    $(taskContainer).find('.otvet-kod').css('border', '1px solid green');
     var route = $("[name=\"save_meta_route\"]").val();
     var bdName = $("[name=\"name_db\"]").val();
     var idTask = $(e.target).data('id');
@@ -45220,12 +45221,13 @@ function proverka(e, val) {
             switch (_context.prev = _context.next) {
               case 0:
                 _context.next = 2;
-                return axios.post(route, request).then(function (response) {
+                return axios.post(route, request).then(function () {
                   $(taskContainer).animate({
                     left: '250px',
                     opacity: 0
                   }, 600, function () {
-                    $(this).hide();
+                    $(this).remove();
+                    checkTasksExist(this, '.tests-container');
                   });
                 })["catch"](function (error) {
                   console.log(error);
@@ -45245,6 +45247,16 @@ function proverka(e, val) {
     })()(taskContainer);
   } else {
     alert('Неверно!');
+    var timer; // cancel previous timeout
+
+    clearTimeout(timer);
+    var self = $(taskContainer).find('.otvet-kod'); // set new border collor. Or add new class for CSS integration
+
+    self.css('border', '1px solid red');
+    timer = setTimeout(function () {
+      // reset CSS
+      self.css('border-color', '');
+    }, 5000); // time in miliseconds, so 5s = 5000ms
   }
 }
 
@@ -45288,10 +45300,49 @@ $('.check-answer').click(function () {
   var answer = $(this).data('answer');
   proverka(event, answer);
 });
+$('.otvet-kod').keypress(function (event) {
+  var keycode = event.keyCode ? event.keyCode : event.which;
+
+  if (keycode == '13') {
+    event.preventDefault();
+    var answer = $(this).data('answer');
+    proverka(event, answer);
+  }
+});
 $('.steps').click(function (event) {
   var id = $(this).data('id');
   tips(event, id);
 });
+
+function checkTasksExist(elem, parentConatiner) {
+  if ($("." + $(elem).attr('class')).length === 0) {
+    $(parentConatiner).html('<div class="text-dark"><h4>Поздравляем!</h4> <h5>Вы перешли на новый уровень!</h5></div>');
+
+    _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2() {
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              _context2.next = 2;
+              return axios.post('level-up', '').then(function () {
+                setTimeout(function () {
+                  window.location.href = "dashboard";
+                }, 5000);
+              })["catch"](function (error) {
+                console.log(error);
+              });
+
+            case 2:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    }))();
+  }
+}
+
+if ($('#tasks').length !== 0) checkTasksExist('.task', '.tests-container');
 
 /***/ }),
 

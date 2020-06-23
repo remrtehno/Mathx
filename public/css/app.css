@@ -11230,6 +11230,10 @@ z:before {
   /* Выводим текст перед содержимым тега <h2> */
 }
 
+.text-dark {
+  color: #000 !important;
+}
+
 @media (max-width: 992px) {
   .task .heading {
     overflow-x: auto;

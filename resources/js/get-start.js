@@ -8,19 +8,19 @@ function proverka (e, val) {
     let checkAnswer = (val,compVal) => String(val).replace(/\s/g, '').split(':').find(x=>x===compVal.replace(/\s/g, ''));
 
     if (checkAnswer(val,answer)) {
-        alert ('Верно!');
-
+       // alert ('Верно!');
+        $(taskContainer).find('.otvet-kod').css('border', '1px solid green');
         let route = $("[name=\"save_meta_route\"]").val();
         let bdName = $("[name=\"name_db\"]").val();
         let idTask = $(e.target).data('id');
         let request = {key: {}, value:{}};
         request.key = 'user_tasks';
         request.value[bdName] = {id: idTask};
-
         (async (taskContainer) => {
-            await axios.post(route, request).then( response => {
+            await axios.post(route, request).then( () => {
                 $(taskContainer).animate({left: '250px', opacity: 0,}, 600, function() {
-                    $(this).hide();
+                    $(this).remove();
+                    checkTasksExist(this, '.tests-container');
                 });
             }).catch( ( error ) => {
                 console.log( error );
@@ -29,6 +29,18 @@ function proverka (e, val) {
 
     } else {
         alert ('Неверно!');
+        var timer;
+
+        // cancel previous timeout
+        clearTimeout(timer);
+        var self = $(taskContainer).find('.otvet-kod');
+        // set new border collor. Or add new class for CSS integration
+        self.css('border', '1px solid red');
+
+        timer = setTimeout(function() {
+            // reset CSS
+            self.css('border-color', '');
+        }, 5000); // time in miliseconds, so 5s = 5000ms
     }
 };
 
@@ -75,10 +87,36 @@ $('.check-answer').click(function () {
     var answer = $(this).data('answer');
     proverka(event, answer);
 });
+$('.otvet-kod').keypress(function(event){
+    let keycode = (event.keyCode ? event.keyCode : event.which);
+    if(keycode == '13'){
+        event.preventDefault();
+        var answer = $(this).data('answer');
+        proverka(event, answer);
+    }
+});
 $('.steps').click(function (event) {
     let id = $(this).data('id');
     tips(event,id);
 });
+
+
+function checkTasksExist(elem, parentConatiner) {
+    if ($("."+$(elem).attr('class')).length === 0 ) {
+        $(parentConatiner).html('<div class="text-dark"><h4>Поздравляем!</h4> <h5>Вы перешли на новый уровень!</h5></div>');
+        (async () => {
+            await axios.post('level-up', '').then( () => {
+                setTimeout(function () {
+                    window.location.href = "dashboard";
+                }, 5000);
+            }).catch( ( error ) => {
+                console.log( error );
+            })
+        })();
+    }
+}
+
+if($('#tasks').length !== 0 ) checkTasksExist('.task', '.tests-container');
 
 
 

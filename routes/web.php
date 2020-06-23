@@ -53,5 +53,7 @@ Route::get('sub-chapter', 'User\KnigaResheniy@getChapter')->name('sub-chapter');
 
 Route::post('save-meta', 'User\Dashboard@save_meta')->name('save-meta');
 
+Route::post('level-up', 'User\Level@up')->name('level-up');
+
 
 

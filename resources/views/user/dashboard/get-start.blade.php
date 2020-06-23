@@ -29,7 +29,7 @@
                         <div class="col-lg-12 mb-5">
                                 <input type="hidden" value="{{ $id_test }}" name="name_db">
                                 <input type="hidden" value="{{ route('save-meta') }}" name="save_meta_route">
-
+                                <input id="tasks" type="hidden">
                                 <div class="tests-container">
                                     @foreach ($data as $val)
                                         <div class="task">
@@ -90,13 +90,11 @@
                                                     <b>Код-ответ:</b>
                                                     <div class="d-flex">
                                                         {{--onkeyup="this.value = this.value.toUpperCase();"--}}
-                                                        <input type="text" name="task-{{  $val['id'] }}" class="otvet-kod">
+                                                        <input type="text" name="task-{{  $val['id'] }}" class="otvet-kod" data-id="{{  $val['id'] }}" data-answer={{$val['otvet_kod']}}>
                                                         <a href="#" class="btn btn-primary rounded-0 check-answer" data-id="{{  $val['id'] }}" data-answer={{$val['otvet_kod']}}>Проверить</a>
                                                     </div>
                                                 </div> <!-- /.task-body -->
                                             @endif
-
-
                                         </div> <!-- task -->
                                     @endforeach
                                 </div> <!-- /.tests-container -->
