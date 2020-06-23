@@ -11,7 +11,6 @@ class Level extends Controller {
 	protected $table = null;
 	protected $level = null;
 	
-	
 	public function up() {
 		$user_id = session()->get('login');
 		if($user_id) {

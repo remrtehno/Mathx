@@ -23,9 +23,9 @@
 </div>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script src="/js/manifest.js"></script>
-<script src="/js/vendor.js"></script>
-<script src="/js/app.js"></script>
+<script src="/js/manifest.js?ver=1.1"></script>
+<script src="/js/vendor.js?ver=1.1"></script>
+<script src="/js/app.js?ver=1.1"></script>
 <script type="text/javascript">
     (function() {
         setTimeout(function(){
