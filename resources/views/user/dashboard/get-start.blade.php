@@ -36,7 +36,7 @@
                                         <div class="task">
                                             <div class="heading mb-3">
                                                 <span class="counter"> {{$val['id']}}. </span>
-												<?= $val['uslovie'] ?>
+												<?= $val['uslovie'] ?> {{$val['primer']}}
                                             </div> <!-- /.heading -->
 
 	                                        <? if(isset($val['shag_1'])) { ?>
