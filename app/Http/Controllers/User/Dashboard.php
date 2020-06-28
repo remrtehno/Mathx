@@ -401,6 +401,7 @@ class Dashboard extends Controller{
 			
 			$this->user_tasks = [];
 			$getArray = DB::table('user_meta')->where(['user_id' => $user_id, 'meta_key' => 'user_tasks' ])->get()->first();
+			
 			if(isset($getArray->meta_value)) {
 				$this->user_tasks = unserialize($getArray->meta_value);
 				if(isset($this->user_tasks[$table_name])) {
@@ -411,9 +412,13 @@ class Dashboard extends Controller{
 				});
 			}
 			
+			//title
+			$sbornik->setTable('info');
+			$title = $sbornik->where('table_name', '=', $table_name)->get()->first();
 			
 			return view('user.dashboard.get-start', [
 				'fiz' => false,
+				'title' => $title->name,
 				'time_left' => 0,
 				'id_test' => $table_name,
 				'users' => $users,

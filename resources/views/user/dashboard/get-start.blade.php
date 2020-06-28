@@ -15,6 +15,7 @@
                     <div class="row">
                         <!-- Content Column -->
                         <div class="col-12 mb-3">
+                            <h1 class="h3 mb-2 text-gray-800">{{$title}}</h1>
                             <h5> Ваш уровень:
 			                        <?php
 			                        if(isset($users->level)) {
@@ -84,19 +85,19 @@
                                                 <font size="3" color="darkgreen" face="sans-serif" style="font-weight:bold">Шаг 1.</font> <? $val['shag_8'];?>	    </div>
                                             @endif
 
-                                            @if(!$fiz)
-                                                <div class="task-body">
-                                                    <div class="d-inline-flex">
-                                                        {{--onkeyup="this.value = this.value.toUpperCase();"--}}
-                                                        <input type="text" placeholder="Код-ответ" name="task-{{  $val['id'] }}" class="otvet-kod" data-id="{{  $val['id'] }}" data-answer={{$val['otvet_kod']}}>
-                                                        <a href="#" class="btn btn-primary rounded-0 check-answer" data-id="{{  $val['id'] }}" data-answer={{$val['otvet_kod']}}>Проверить</a>
-                                                    </div>
-                                                    <button class="steps btn btn-success rounded-0" data-id="<?= $val['id'];?>">
-                                                        Подсказать
-                                                    </button>
-                                                    <span class="timer badge badge-light"></span>
-                                                </div> <!-- /.task-body -->
-                                            @endif
+                                            <div class="task-body">
+                                                <div class="d-inline-flex">
+                                                    {{--onkeyup="this.value = this.value.toUpperCase();"--}}
+                                                    <input type="text" placeholder="Код-ответ" name="task-{{  $val['id'] }}" class="otvet-kod" data-id="{{  $val['id'] }}" data-answer={{$val['otvet_kod']}}>
+                                                    <a href="#" class="btn btn-primary rounded-0 check-answer" data-id="{{  $val['id'] }}" data-answer={{$val['otvet_kod']}}>Проверить</a>
+                                                </div>
+                                                @if($val['shag_1'])
+                                                <button class="steps btn btn-success rounded-0" data-id="<?= $val['id'];?>">
+                                                    Подсказать
+                                                </button>
+                                                @endif
+                                                <span class="timer badge badge-light"></span>
+                                            </div> <!-- /.task-body -->
                                         </div> <!-- task -->
                                     @endforeach
                                 </div> <!-- /.tests-container -->
