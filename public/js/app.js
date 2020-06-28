@@ -45180,6 +45180,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _modalAlert__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modalAlert */ "./resources/js/modalAlert.js");
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -45187,6 +45188,7 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+
 
 var id_inte;
 
@@ -45259,7 +45261,7 @@ function proverka(e, val) {
       };
     })()(taskContainer);
   } else {
-    alert('Неверно!');
+    Object(_modalAlert__WEBPACK_IMPORTED_MODULE_1__["default"])('Неверно!');
     var timer; // cancel previous timeout
 
     clearTimeout(timer);
@@ -45276,6 +45278,7 @@ function proverka(e, val) {
 ;
 
 function tips(event, id) {
+  var elem = event.target;
   event.preventDefault();
 
   if (id_inte) {
@@ -45289,7 +45292,20 @@ function tips(event, id) {
     tag.style.display = 'block';
   }
 
-  var timer = event.target.parentNode.querySelector('.timer');
+  var hintBloks = event.target.closest('.task').querySelectorAll('[class*="hints-"][style="display:none;"]');
+  console.log(hintBloks);
+
+  if (hintBloks.length === 0) {
+    $(elem).remove();
+    return;
+  }
+
+  elem.style.display = 'none';
+  $('.steps').attr('disabled', true).addClass('btn-dark');
+  window.localStorage.setItem('timer', JSON.stringify({
+    id: id
+  }));
+  var timer = event.target.parentNode.parentNode.querySelector('.timer');
 
   function timerFunc() {
     var totalSec = 200;
@@ -45297,6 +45313,12 @@ function tips(event, id) {
       if (totalSec == 1) {
         clearInterval(id_inte);
         id_inte = null;
+        elem.style.display = null;
+        timer.innerHTML = null;
+        $('.steps').attr('disabled', false).removeClass('btn-dark');
+        if (hintBloks.length === 0) $('.steps').remove();
+        window.localStorage.removeItem('timer');
+        return;
       }
 
       totalSec--;
@@ -45356,6 +45378,12 @@ function checkTasksExist(elem, parentConatiner) {
 }
 
 if ($('#tasks').length !== 0) checkTasksExist('.task', '.tests-container');
+var timer = window.localStorage.getItem('timer');
+
+if (timer) {
+  var _JSON$parse = JSON.parse(timer),
+      id = _JSON$parse.id;
+}
 
 /***/ }),
 
@@ -47465,6 +47493,27 @@ if(!element.attr("title")){element.attr("title",element.data("ui-tooltip-title")
 // TODO: Switch return back to widget declaration at top of file when this is removed
 if($.uiBackCompat!==false){// Backcompat for tooltipClass option
 $.widget("ui.tooltip",$.ui.tooltip,{options:{tooltipClass:null},_tooltip:function _tooltip(){var tooltipData=this._superApply(arguments);if(this.options.tooltipClass){tooltipData.tooltip.addClass(this.options.tooltipClass);}return tooltipData;}});}var widgetsTooltip=$.ui.tooltip;});
+
+/***/ }),
+
+/***/ "./resources/js/modalAlert.js":
+/*!************************************!*\
+  !*** ./resources/js/modalAlert.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var modalAlert = function modalAlert(text) {
+  $('#alertModal').find('.modal-body').html(text);
+  $('#alertModal').modal('show');
+  setTimeout(function () {
+    $('#alertModal').modal('hide');
+  }, 5000);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (modalAlert);
 
 /***/ }),
 

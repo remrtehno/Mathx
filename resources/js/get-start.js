@@ -1,4 +1,5 @@
 const axios = require('axios');
+import modalAlert from "./modalAlert";
 
 var id_inte;
 function proverka (e, val) {
@@ -42,7 +43,7 @@ function proverka (e, val) {
         })(taskContainer);
 
     } else {
-        alert ('Неверно!');
+        modalAlert('Неверно!');
         var timer;
 
         // cancel previous timeout
@@ -59,6 +60,7 @@ function proverka (e, val) {
 };
 
 function tips(event, id) {
+    let elem = event.target;
     event.preventDefault();
 
     if(id_inte) {
@@ -67,14 +69,25 @@ function tips(event, id) {
     }
 
 
-    var tag= event.target.closest('.task').querySelector('[class*="hints-"][style="display:none;"]');
+
+    let tag = event.target.closest('.task').querySelector('[class*="hints-"][style="display:none;"]');
     if(tag) {
         tag.style.display = 'block';
-
     }
 
+    let hintBloks = event.target.closest('.task').querySelectorAll('[class*="hints-"][style="display:none;"]');
 
-    var timer = event.target.parentNode.querySelector('.timer');
+    console.log(hintBloks);
+    if(hintBloks.length === 0) {
+        $(elem).remove();
+        return;
+    }
+
+    elem.style.display = 'none';
+    $('.steps').attr('disabled', true).addClass('btn-dark');
+    window.localStorage.setItem('timer', JSON.stringify({id: id}));
+    var timer = event.target.parentNode.parentNode.querySelector('.timer');
+
     function timerFunc () {
         var totalSec = 200;
         id_inte = setInterval(function () {
@@ -82,6 +95,12 @@ function tips(event, id) {
             if(totalSec == 1) {
                 clearInterval(id_inte);
                 id_inte = null;
+                elem.style.display = null;
+                timer.innerHTML = null;
+                $('.steps').attr('disabled', false).removeClass('btn-dark');
+                if(hintBloks.length === 0) $('.steps').remove();
+                window.localStorage.removeItem('timer');
+                return;
             }
 
             totalSec--;
@@ -132,5 +151,7 @@ function checkTasksExist(elem, parentConatiner) {
 
 if($('#tasks').length !== 0 ) checkTasksExist('.task', '.tests-container');
 
-
-
+let timer = window.localStorage.getItem('timer');
+if(timer) {
+    let {id} = JSON.parse(timer);
+}

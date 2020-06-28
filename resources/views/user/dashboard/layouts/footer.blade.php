@@ -22,6 +22,24 @@
     </div>
 </div>
 
+
+
+
+<!-- Alert Modal -->
+<div class="modal fade" id="alertModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content position-relative">
+            <div class="modal-header position-absolute w-100">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 <script src="/js/manifest.js?ver=1.1"></script>
 <script src="/js/vendor.js?ver=1.1"></script>

@@ -11092,12 +11092,12 @@ body.sidebar-toggled footer.sticky-footer {
   visibility: hidden;
 }
 
-.steps {
-  color: blue;
-}
-
 .timer {
-  color: blue;
+  font-size: 17px;
+  font-weight: 400;
+  border: 1px solid #aaaaaa;
+  padding: 9px 13px;
+  border-radius: 0;
 }
 
 .task-body {
@@ -11232,6 +11232,30 @@ z:before {
 
 .text-dark {
   color: #000 !important;
+}
+
+.otvet-kod {
+  padding-left: 10px;
+}
+
+.otvet-kod::-moz-placeholder {
+  opacity: 0.6;
+}
+
+.otvet-kod:-ms-input-placeholder {
+  opacity: 0.6;
+}
+
+.otvet-kod::-ms-input-placeholder {
+  opacity: 0.6;
+}
+
+.otvet-kod::placeholder {
+  opacity: 0.6;
+}
+
+[class*=hints-] {
+  margin-bottom: 15px;
 }
 
 @media (max-width: 992px) {
