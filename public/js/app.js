@@ -45190,6 +45190,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 
 
+var resolvedTask = 0;
 var id_inte;
 
 function proverka(e, val) {
@@ -45205,7 +45206,8 @@ function proverka(e, val) {
   var date = $('[name="date"]').val();
 
   if (checkAnswer(val, answer)) {
-    // alert ('Верно!');
+    resolvedTask++; // alert ('Верно!');
+
     $(taskContainer).find('.otvet-kod').css('border', '1px solid green');
     var route = $("[name=\"save_meta_route\"]").val();
     var bdName = $("[name=\"name_db\"]").val();
@@ -45232,6 +45234,14 @@ function proverka(e, val) {
                   }, 600, function () {
                     $(this).remove();
                     checkTasksExist(this, '.tests-container');
+                    taskLeft();
+
+                    var _$$data = $('#totalPercent').data('json'),
+                        resolved = _$$data.resolved,
+                        rows = _$$data.rows;
+
+                    var result = (resolved + resolvedTask) / rows * 100;
+                    $('#totalPercent').html(Math.round((result + +Number.EPSILON) * 10) / 10);
                   }); //for statistics
 
                   var statics = {
@@ -45261,17 +45271,19 @@ function proverka(e, val) {
       };
     })()(taskContainer);
   } else {
-    Object(_modalAlert__WEBPACK_IMPORTED_MODULE_1__["default"])('Неверно!');
+    var timerHandler = function timerHandler() {
+      // set new border collor. Or add new class for CSS integration
+      self.css('border', '1px solid red');
+      timer = setTimeout(function () {// reset CSS
+        //  self.css('border-color', '');
+      }, 5000); // time in miliseconds, so 5s = 5000ms
+    };
+
+    Object(_modalAlert__WEBPACK_IMPORTED_MODULE_1__["default"])('Неверно!', timerHandler);
     var timer; // cancel previous timeout
 
     clearTimeout(timer);
-    var self = $(taskContainer).find('.otvet-kod'); // set new border collor. Or add new class for CSS integration
-
-    self.css('border', '1px solid red');
-    timer = setTimeout(function () {
-      // reset CSS
-      self.css('border-color', '');
-    }, 5000); // time in miliseconds, so 5s = 5000ms
+    var self = $(taskContainer).find('.otvet-kod');
   }
 }
 
@@ -45384,6 +45396,12 @@ if (timer) {
   var _JSON$parse = JSON.parse(timer),
       id = _JSON$parse.id;
 }
+
+var taskLeft = function taskLeft() {
+  $('#taskLeft').html($('.task').length);
+};
+
+taskLeft();
 
 /***/ }),
 
@@ -47505,12 +47523,17 @@ $.widget("ui.tooltip",$.ui.tooltip,{options:{tooltipClass:null},_tooltip:functio
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-var modalAlert = function modalAlert(text) {
+var modalAlert = function modalAlert(text, hideHandler) {
   $('#alertModal').find('.modal-body').html(text);
   $('#alertModal').modal('show');
   setTimeout(function () {
     $('#alertModal').modal('hide');
-  }, 5000);
+  }, 4000);
+  $('#alertModal').on('hidden.bs.modal', function (e) {
+    if (hideHandler) {
+      hideHandler();
+    }
+  });
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (modalAlert);

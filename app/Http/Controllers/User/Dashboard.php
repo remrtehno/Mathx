@@ -414,11 +414,75 @@ class Dashboard extends Controller{
 			
 			//title
 			$sbornik->setTable('info');
-			$title = $sbornik->where('table_name', '=', $table_name)->get()->first();
+			$info = $sbornik->where('table_name', '=', $table_name)->get()->first();
+			
+			
+			/*
+			 *
+			 *
+			 *
+			 *
+			 *
+			
+			 
+SELECT  (
+        SELECT COUNT(*)
+        FROM   blok_1_1a
+        ) AS count1,
+        (
+        SELECT COUNT(*)
+        FROM   blok_2_1a
+        ) AS count2
+FROM    dual
+			
+			
+			
+			SELECT SUM(TABLE_ROWS)
+
+FROM  INFORMATION_SCHEMA.PARTITIONS
+    WHERE TABLE_SCHEMA = 'mathexpe_sbornik_mat'
+     AND table_name IN ('blok_1_1a', 'blok_2_1a', 'blok_2_1b')
+			
+			
+			SELECT table_name FROM mathexpe_sbornik_mat.info WHERE info.glava = 2
+			
+			
+			need to add where to prevent find whole tables
+
+			SELECT *
+
+FROM  INFORMATION_SCHEMA.TABLES
+    WHERE INFORMATION_SCHEMA.TABLES.TABLE_SCHEMA = "mathexpe_sbornik_mat" AND CONVERT(TABLE_NAME  USING utf32) IN (SELECT  CONVERT(table_name USING utf32) FROM mathexpe_sbornik_mat.info WHERE info.glava = 1)
+
+			//sum of all rows
+			SELECT SUM(TABLE_ROWS) as rows FROM  INFORMATION_SCHEMA.TABLES
+    WHERE INFORMATION_SCHEMA.TABLES.TABLE_SCHEMA = "mathexpe_sbornik_mat" AND CONVERT(TABLE_NAME  USING utf32) IN (SELECT  CONVERT(table_name USING utf32) FROM mathexpe_sbornik_mat.info WHERE info.glava = 2)
+			 *
+			 *
+			 */
+			
+			$sql = DB::select("
+SELECT SUM(TABLE_ROWS) as rows FROM  INFORMATION_SCHEMA.TABLES WHERE INFORMATION_SCHEMA.TABLES.TABLE_SCHEMA = '".env('DB_DATABASE_MAT', false)."' AND CONVERT(TABLE_NAME  USING utf32) IN (SELECT  CONVERT(table_name USING utf32) FROM ".env('DB_DATABASE_MAT', false).".info WHERE info.glava = ".$info->glava.")
+
+");
+			
+			$total = 0;
+			$resolved = 0;
+			if(isset($getArray->meta_value)) {
+				foreach (unserialize($getArray->meta_value) as $key => $val) {
+					$resolved += count((array)$val['id']);
+				}
+				$total = round( ($resolved / $sql[0]->rows) * 100, 1);
+			}
+			$json = ['resolved' => $resolved, 'rows' => $sql[0]->rows];
+			
+
 			
 			return view('user.dashboard.get-start', [
+				'totalJson' => json_encode($json),
+				'total' => $total,
 				'fiz' => false,
-				'title' => $title->name,
+				'title' => $info->name,
 				'time_left' => 0,
 				'id_test' => $table_name,
 				'users' => $users,

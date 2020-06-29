@@ -1,15 +1,21 @@
 const axios = require('axios');
 import modalAlert from "./modalAlert";
 
+let resolvedTask = 0;
 var id_inte;
 function proverka (e, val) {
 
     let taskContainer = e.target.closest('.task');
     let answer = e.target.closest('div').querySelector('.otvet-kod').value;
-    let checkAnswer = (val,compVal) => String(val).replace(/\s/g, '').split(':').find(x=>x===compVal.replace(/\s/g, ''));
+    let checkAnswer = (val,compVal) => String(val)
+        .replace(/\s/g, '')
+        .split(':')
+        .find(x => x === compVal.replace(/\s/g, ''));
+
     let date = $('[name="date"]').val();
 
     if (checkAnswer(val,answer)) {
+        resolvedTask++;
        // alert ('Верно!');
         $(taskContainer).find('.otvet-kod').css('border', '1px solid green');
         let route = $("[name=\"save_meta_route\"]").val();
@@ -25,6 +31,10 @@ function proverka (e, val) {
                 $(taskContainer).animate({left: '250px', opacity: 0,}, 600, function() {
                     $(this).remove();
                     checkTasksExist(this, '.tests-container');
+                    taskLeft();
+                    const {resolved, rows} = $('#totalPercent').data('json');
+                    let result = ((resolved+resolvedTask) / rows) * 100;
+                    $('#totalPercent').html(Math.round((result + + Number.EPSILON) * 10) / 10);
                 });
 
                 //for statistics
@@ -43,19 +53,22 @@ function proverka (e, val) {
         })(taskContainer);
 
     } else {
-        modalAlert('Неверно!');
+        modalAlert('Неверно!', timerHandler);
         var timer;
+
 
         // cancel previous timeout
         clearTimeout(timer);
         var self = $(taskContainer).find('.otvet-kod');
-        // set new border collor. Or add new class for CSS integration
-        self.css('border', '1px solid red');
 
-        timer = setTimeout(function() {
-            // reset CSS
-            self.css('border-color', '');
-        }, 5000); // time in miliseconds, so 5s = 5000ms
+        function timerHandler() {
+            // set new border collor. Or add new class for CSS integration
+            self.css('border', '1px solid red');
+            timer = setTimeout(function() {
+                // reset CSS
+              //  self.css('border-color', '');
+            }, 5000); // time in miliseconds, so 5s = 5000ms
+        }
     }
 };
 
@@ -155,3 +168,9 @@ let timer = window.localStorage.getItem('timer');
 if(timer) {
     let {id} = JSON.parse(timer);
 }
+
+const taskLeft = () => {
+    $('#taskLeft').html($('.task').length);
+};
+
+taskLeft();

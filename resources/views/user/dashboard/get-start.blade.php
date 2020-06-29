@@ -25,6 +25,13 @@
 			                        }
 			                        ?>
                             </h5>
+                            <h6>
+                                Оставшееся число задач в блоке: <span id="taskLeft"></span>
+                            </h6>
+                            <h6>
+                                Прохождение главы:
+                                <span id="totalPercent" data-json="{{$totalJson}}">{{$total}}</span>%
+                            </h6>
                         </div>
                         <!-- /.col-12 -->
                         <div class="col-lg-12 mb-5">
@@ -88,8 +95,8 @@
                                             <div class="task-body">
                                                 <div class="d-inline-flex">
                                                     {{--onkeyup="this.value = this.value.toUpperCase();"--}}
-                                                    <input type="text" placeholder="Код-ответ" name="task-{{  $val['id'] }}" class="otvet-kod" data-id="{{  $val['id'] }}" data-answer={{$val['otvet_kod']}}>
-                                                    <a href="#" class="btn btn-primary rounded-0 check-answer" data-id="{{  $val['id'] }}" data-answer={{$val['otvet_kod']}}>Проверить</a>
+                                                    <input type="text" placeholder="Код-ответ" name="task-{{  $val['id'] }}" class="otvet-kod" data-id="{{  $val['id'] }}" data-answer="{{$val['otvet_kod']}}">
+                                                    <a href="#" class="btn btn-primary rounded-0 check-answer" data-id="{{  $val['id'] }}" data-answer="{!! $val['otvet_kod'] !!}">Проверить</a>
                                                 </div>
                                                 @if($val['shag_1'])
                                                 <button class="steps btn btn-success rounded-0" data-id="<?= $val['id'];?>">
