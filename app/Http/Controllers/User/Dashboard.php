@@ -462,7 +462,7 @@ FROM  INFORMATION_SCHEMA.TABLES
 			 */
 			
 			$sql = DB::select("
-SELECT SUM(TABLE_ROWS) as rows FROM  INFORMATION_SCHEMA.TABLES WHERE INFORMATION_SCHEMA.TABLES.TABLE_SCHEMA = '".env('DB_DATABASE_MAT', false)."' AND CONVERT(TABLE_NAME  USING utf32) IN (SELECT  CONVERT(table_name USING utf32) FROM ".env('DB_DATABASE_MAT', false).".info WHERE info.glava = ".$info->glava.")
+SELECT SUM(TABLE_ROWS) as sumrows FROM  INFORMATION_SCHEMA.TABLES WHERE INFORMATION_SCHEMA.TABLES.TABLE_SCHEMA = '".env('DB_DATABASE_MAT', false)."' AND CONVERT(TABLE_NAME  USING utf32) IN (SELECT  CONVERT(table_name USING utf32) FROM ".env('DB_DATABASE_MAT', false).".info WHERE info.glava = ".$info->glava.")
 
 ");
 			
@@ -472,9 +472,9 @@ SELECT SUM(TABLE_ROWS) as rows FROM  INFORMATION_SCHEMA.TABLES WHERE INFORMATION
 				foreach (unserialize($getArray->meta_value) as $key => $val) {
 					$resolved += count((array)$val['id']);
 				}
-				$total = round( ($resolved / $sql[0]->rows) * 100, 1);
+				$total = round( ($resolved / $sql[0]->sumrows) * 100, 1);
 			}
-			$json = ['resolved' => $resolved, 'rows' => $sql[0]->rows];
+			$json = ['resolved' => $resolved, 'rows' => $sql[0]->sumrows];
 			
 
 			
