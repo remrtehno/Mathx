@@ -66,7 +66,7 @@ function proverka (e, val) {
             self.css('border', '1px solid red');
             timer = setTimeout(function() {
                 // reset CSS
-              //  self.css('border-color', '');
+                self.css('border-color', '');
             }, 5000); // time in miliseconds, so 5s = 5000ms
         }
     }
