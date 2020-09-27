@@ -523,6 +523,7 @@ SELECT SUM(TABLE_ROWS) as sumrows FROM  INFORMATION_SCHEMA.TABLES WHERE INFORMAT
 				'total' => $total,
 				'fiz' => false,
 				'title' => $info->name,
+				'level' => $this->select_theme() ? $users->level_fiz : $users->level,
 				'time_left' => 0,
 				'id_test' => $table_name,
 				'users' => $users,

@@ -18,12 +18,13 @@
                             <h1 class="h3 mb-2 text-gray-800">{{$title}}</h1>
                             <h5> Ваш уровень:
 			                        <?php
-			                        if(isset($users->level)) {
-				                        echo $users->level;
-			                        } else {
-				                        echo 'A1.1a';
-			                        }
+//			                        if(isset($users->level)) {
+//				                        echo $users->level;
+//			                        } else {
+//				                        echo 'A1.1a';
+//			                        }
 			                        ?>
+                                {{$level}}
                             </h5>
 
                             <h6>
