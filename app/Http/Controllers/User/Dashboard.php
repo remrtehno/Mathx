@@ -231,16 +231,21 @@ class Dashboard extends Controller{
 		if($user_id) {
 			$response = $request->all();
 			$name_db =$response['name_db'];
-			$flights = new \App\Math;
-			$flights->setTable($name_db);
-			$get_test = $flights->get()->toArray();
+			
 			
 			
 			if(self::select_theme()) {
 				$this->fiz = '_fiz';
+				$flights = new \App\Math;
 			} else {
 				$this->fiz = '';
+				$flights = new \App\Math;
 			}
+			
+			
+			$flights->setTable($name_db);
+			$get_test = $flights->get()->toArray();
+			
 			
 			$timenow = strtotime(date('Y-m-d H:i'));
 			
@@ -383,21 +388,55 @@ class Dashboard extends Controller{
 			
 			$users = DB::table('users')->where('id', '=', $user_id )->first();
 			
-			//get level and set bd
-			if(isset($users->level)) {
-				$this->table = $users->level;
+			
+			
+			if(self::select_theme()) {
+				$sbornik = new \App\SbornikFiz;
+				
+				//get level and set bd
+				if(isset($users->level_fiz)) {
+					$this->table = $users->level_fiz;
+				} else {
+					$this->table = Config::get('constants.options.LEVEL_FIZ');
+				}
+				
 			} else {
-				$this->table = Config::get('constants.options.LEVEL');
+				$sbornik = new \App\SbornikMat;
+				
+				//get level and set bd
+				if(isset($users->level)) {
+					$this->table = $users->level;
+				} else {
+					$this->table = Config::get('constants.options.LEVEL');
+				}
+				
 			}
 			
-			$sbornik = new \App\SbornikMat;
+			
+			
+			
+			
 			$sbornik->setTable('map');
 			$get_test = $sbornik->where('level', '=', $this->table)->first();
+			
+
+			
+			
+			if(!isset($get_test->table_name)) {
+				session( [ 'alert' => 'Задачи временно не доступны, пожалуйста выберите другой раздел или зайдите позже.', ] );
+				return redirect()->route('dashboard');
+			}
+			
 			$table_name = $get_test->table_name;
+			
+
 			
 			$sbornik->setTable($table_name);
 			$get_test = $sbornik->get()->toArray();
 			$get_test_json = $sbornik->get()->toJson(JSON_PRETTY_PRINT);
+			
+			
+			
 			
 			$this->user_tasks = [];
 			$getArray = DB::table('user_meta')->where(['user_id' => $user_id, 'meta_key' => 'user_tasks' ])->get()->first();
@@ -415,6 +454,8 @@ class Dashboard extends Controller{
 			//title
 			$sbornik->setTable('info');
 			$info = $sbornik->where('table_name', '=', $table_name)->get()->first();
+			
+
 			
 			
 			/*
@@ -476,7 +517,6 @@ SELECT SUM(TABLE_ROWS) as sumrows FROM  INFORMATION_SCHEMA.TABLES WHERE INFORMAT
 			}
 			$json = ['resolved' => $resolved, 'rows' => $sql[0]->sumrows];
 			
-
 			
 			return view('user.dashboard.get-start', [
 				'totalJson' => json_encode($json),

@@ -28,6 +28,15 @@
                     <div class="row">
                         <!-- Content Column -->
                         <div class="col-lg-6 mb-4">
+                            @if (session()->get('alert'))
+                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                    {{ session()->get('alert') }}
+                                    {{ session()->forget('alert') }}
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div> <!-- alert -->
+                            @endif
                             <!-- Color System -->
                             <div class="row">
                                 <div class="col-lg-6 mb-4">
